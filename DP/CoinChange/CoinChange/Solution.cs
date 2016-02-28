@@ -13,7 +13,7 @@ namespace CoinChange
     {
         public static TextWriter writer;
         private readonly Dictionary<int, int> _collection = new Dictionary<int, int>();
-        private int _amount;
+        public readonly int  _amount;
         public CoinCollection(int amount)
         {
             _amount = amount;
@@ -81,13 +81,17 @@ namespace CoinChange
 
         public override bool Equals(object obj)
         {
-            if (obj.GetType() != typeof(CoinCollection))
-                return false;
+            //if (obj.GetType() != typeof(CoinCollection))
+            //    return false;
             //if (obj == null)
             //    return false;
-            var x = this;
+           
             var y = (CoinCollection)obj;
-            return x.Coins.All(c => y.Coins.ContainsKey(c.Key) && y.Coins[c.Key] == c.Value);
+            if (Coins.Count != y.Coins.Count)
+                return false;
+            if (_amount != y._amount)
+                return false;
+            return Coins.All(c => y.Coins.ContainsKey(c.Key) && y.Coins[c.Key] == c.Value);
         }
 
         public int GetHashCode(CoinCollection obj)
@@ -100,6 +104,10 @@ namespace CoinChange
     {
         public bool Equals(CoinCollection x, CoinCollection y)
         {
+            if (x._amount != y._amount)
+                return false;
+            if (x.Coins.Count != y.Coins.Count)
+                return false;
             return x.Coins.All(c => y.Coins.ContainsKey(c.Key) && y.Coins[c.Key] == c.Value);
         }
 
@@ -111,6 +119,7 @@ namespace CoinChange
 
     public static class Extensions
     {
+        public static TextWriter Writer;
         public static void AddOrUpdate(this Dictionary<int, List<CoinCollection>> dic, int amount, CoinCollection collection)
         {
             if (dic.ContainsKey(amount))
@@ -132,12 +141,21 @@ namespace CoinChange
             if (dic.ContainsKey(amount))
             {
                 var temp = dic[amount];
+                var sw = new Stopwatch();
                 foreach (var coinCollection in collection)
                 {
+                    sw.Start();
                     if (!temp.Exists(x => x.Equals(coinCollection)))
+                    {
+                        sw.Stop();
                         temp.Add(coinCollection);
+                    }
+                    else
+                    {
+                        sw.Stop();
+                    }
                 }
-                
+                Writer.WriteLine($"############## CHecked Exists for {sw.ElapsedMilliseconds}");
             }
             else
             {
@@ -180,6 +198,7 @@ namespace CoinChange
 
         static void Solve()
         {
+            Extensions.Writer = writer;
             CoinCollection.writer = writer;
             _cache.Add(0, 0);
             var amount = Convert.ToInt32(reader.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)[0]);
