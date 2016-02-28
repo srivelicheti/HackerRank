@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace CoinChange
 
     public class CoinCollection
     {
-        private IDictionary<int, int> _collection = new Dictionary<int, int>();
+        public static TextWriter writer;
+        private readonly Dictionary<int, int> _collection = new Dictionary<int, int>();
         private int _amount;
         public CoinCollection(int amount)
         {
@@ -24,7 +26,7 @@ namespace CoinChange
                 this.AddToCollection(kvp.Key, kvp.Value);
             }
         }
-        public IDictionary<int, int> Coins
+        public Dictionary<int, int> Coins
         {
             get
             {
@@ -52,11 +54,19 @@ namespace CoinChange
             Update(collection);
         }
 
-        public CoinCollection(int amount, int coin, int number ,CoinCollection collection)
+        public CoinCollection(int amount, int coin, int number, CoinCollection collection)
         {
+            //var sw = Stopwatch.StartNew();
             _amount = amount;
-            Update(collection);
+            foreach (var kvp in collection.Coins)
+            {
+                _collection[kvp.Key] = kvp.Value;
+            }
+            //Update(collection);
+            //_collection = collection
             AddToCollection(coin, number);
+            //sw.Stop();
+          //  writer.WriteLine($"???????????? Created New Coll {amount}");
         }
 
         public override string ToString()
@@ -73,37 +83,24 @@ namespace CoinChange
         {
             if (obj.GetType() != typeof(CoinCollection))
                 return false;
-            if (obj == null)
-                return false;
+            //if (obj == null)
+            //    return false;
             var x = this;
             var y = (CoinCollection)obj;
-            var b = x.Coins.All(c =>
-            {
-                return y.Coins.Any(z => z.Key == c.Key && z.Value == c.Value);
-            });
-            return b;
+            return x.Coins.All(c => y.Coins.ContainsKey(c.Key) && y.Coins[c.Key] == c.Value);
         }
 
         public int GetHashCode(CoinCollection obj)
         {
-            return base.GetHashCode();
+            return obj.GetHashCode();
         }
     }
 
     public class CollectionComparer : IEqualityComparer<CoinCollection>
     {
-        //public int Compare(CoinCollection x, CoinCollection y)
-        //{
-           
-        //}
-
         public bool Equals(CoinCollection x, CoinCollection y)
         {
-            var b = x.Coins.All(c =>
-            {
-                return y.Coins.Any(z => z.Key == c.Key && z.Value == c.Value);
-            });
-            return b;
+            return x.Coins.All(c => y.Coins.ContainsKey(c.Key) && y.Coins[c.Key] == c.Value);
         }
 
         public int GetHashCode(CoinCollection obj)
@@ -118,14 +115,36 @@ namespace CoinChange
         {
             if (dic.ContainsKey(amount))
             {
-                if(!dic[amount].Exists(x => x.Equals(collection)))
-                    dic[amount].Add(collection);
+                var temp = dic[amount];
+                if (!temp.Exists(x => x.Equals(collection)))
+                    temp.Add(collection);
             }
             else
             {
                 var coll = new List<CoinCollection>();
                 coll.Add(collection);
                 dic[amount] = coll;
+            }
+        }
+
+        public static void AddOrUpdate(this Dictionary<int, List<CoinCollection>> dic, int amount, List<CoinCollection> collection)
+        {
+            if (dic.ContainsKey(amount))
+            {
+                var temp = dic[amount];
+                foreach (var coinCollection in collection)
+                {
+                    if (!temp.Exists(x => x.Equals(coinCollection)))
+                        temp.Add(coinCollection);
+                }
+                
+            }
+            else
+            {
+                //var coll = new List<CoinCollection>();
+                //coll.Add(collection);
+                //dic[amount] = coll;
+                dic[amount] = collection;
             }
         }
     }
@@ -145,8 +164,9 @@ namespace CoinChange
 #if DEBUG
 
             reader = new StreamReader("..\\..\\input.txt");
-            writer = Console.Out;
-            // writer = new StreamWriter("..\\..\\output.txt");
+           // writer = Console.Out;
+             writer = new StreamWriter("..\\..\\output.txt",false);
+            
 #else
             reader = Console.In;
             writer = new StreamWriter(Console.OpenStandardOutput());
@@ -160,8 +180,9 @@ namespace CoinChange
 
         static void Solve()
         {
+            CoinCollection.writer = writer;
             _cache.Add(0, 0);
-            var amount = Convert.ToInt32(reader.ReadLine().Split(new char[] { ' ' },StringSplitOptions.RemoveEmptyEntries)[0]);
+            var amount = Convert.ToInt32(reader.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)[0]);
 
             _coins = reader.ReadLine().Split(' ').Where(x => !string.IsNullOrEmpty(x)).Select(x => Convert.ToInt32(x)).ToArray();
             foreach (var c in _coins)
@@ -169,7 +190,7 @@ namespace CoinChange
                 //_cache.Add(c,1);
             }
             GetNumberOfDenominations(amount);
-            writer.WriteLine( _collCache.ContainsKey(amount)? _collCache[amount].Distinct(new CollectionComparer()).Count():0);
+            writer.WriteLine(_collCache.ContainsKey(amount) ? _collCache[amount].Distinct(new CollectionComparer()).Count() : 0);
             writer.Flush();
 #if DEBUG
             writer.Close();
@@ -178,6 +199,7 @@ namespace CoinChange
 
         static int GetNumberOfDenominations(int amount)
         {
+            
             if (_cache.ContainsKey(amount))
                 return _cache[amount];
             else
@@ -189,6 +211,7 @@ namespace CoinChange
                 }
                 else
                 {
+                    var sw = Stopwatch.StartNew();
                     var total = 0;
                     List<string> currentCoins = new List<string>();
                     foreach (var coin in _coins)
@@ -205,21 +228,36 @@ namespace CoinChange
                                 //if ()
                                 {
                                     var toFigure = amount - coin;
+                                    sw.Stop();
                                     var den = GetNumberOfDenominations(toFigure);
+                                    sw.Start();
                                     if (den > 0)
                                     {
                                         total = total + den;
                                         var perms = _collCache[toFigure];
-                                        foreach (var coll in perms)
-                                        {
-                                            _collCache.AddOrUpdate(amount, new CoinCollection(amount, coin, 1, coll));
-                                        }
+                                        var el = sw.ElapsedMilliseconds;
+                                        var list = perms.Select(coll => new CoinCollection(amount, coin, 1, coll)).ToList();
+                                        var t = sw.ElapsedMilliseconds - el;
+                                        el = sw.ElapsedMilliseconds;
+                                        _collCache.AddOrUpdate(amount, list);
+                                        writer.WriteLine($"------Created in {t} Added|updated {amount} to cache in {(sw.ElapsedMilliseconds - el)}");
+                                        //foreach (var coll in perms)
+                                        //{
+                                        //    var el = sw.ElapsedMilliseconds;
+                                        //    _collCache.AddOrUpdate(amount, new CoinCollection(amount, coin, 1, coll));
+                                        //    //Console.WriteLine($"Added|updated {amount} to cache in {(sw.ElapsedMilliseconds - el)}");
+                                        //}
                                     }
                                 }
                             }
                         }
                     }
-                    _cache[amount] = _collCache.ContainsKey(amount) ? _collCache[amount].Count :0;
+                    sw.Stop();
+                    _cache[amount] = _collCache.ContainsKey(amount) ? _collCache[amount].Count : 0;
+                    var debugStr = "Calculated  for : " + amount + " in " + sw.ElapsedMilliseconds;
+                    writer.WriteLine(debugStr);
+                    writer.Flush();
+                    Console.WriteLine(debugStr);
                     return total;
                 }
             }
