@@ -1,30 +1,22 @@
-Calculated  for : 1 in 0
+Calculated  for : 1 in 1
 Calculated  for : 2 in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 3 to cache in 1
-Calculated  for : 3 in 1
-------Created in 0 Added|updated 4 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 4 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 4 to cache in 0
-Calculated  for : 4 in 0
+Calculated  for : 3 in 0
+------Created in 1 Added|updated 4 to cache in 1
+Calculated  for : 4 in 2
 ------Created in 0 Added|updated 45 to cache in 0
 ------Created in 0 Added|updated 11 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 11 to cache in 0
 ------Created in 0 Added|updated 10 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 10 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 9 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 10 to cache in 1
 ------Created in 0 Added|updated 8 to cache in 0
 ------Created in 0 Added|updated 5 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 5 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 5 to cache in 0
 Calculated  for : 5 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 8 to cache in 0
 ------Created in 0 Added|updated 6 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 6 to cache in 0
@@ -32,41 +24,11 @@ Calculated  for : 5 in 0
 ------Created in 0 Added|updated 6 to cache in 0
 Calculated  for : 6 in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 7 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 7 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 7 to cache in 0
-Calculated  for : 7 in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 8 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 8 to cache in 0
-############## CHecked Exists for 0
 ------Created in 0 Added|updated 8 to cache in 0
 Calculated  for : 8 in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 9 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 9 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 9 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 9 to cache in 0
-Calculated  for : 9 in 0
-############## CHecked Exists for 0
 ------Created in 0 Added|updated 10 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 10 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 10 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 10 to cache in 0
-Calculated  for : 10 in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 11 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 11 to cache in 0
+Calculated  for : 10 in 1
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 11 to cache in 0
 ############## CHecked Exists for 0
@@ -75,6 +37,13 @@ Calculated  for : 11 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 45 to cache in 0
 ------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 9 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 9 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 9 to cache in 0
+Calculated  for : 9 in 0
 ------Created in 0 Added|updated 18 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 18 to cache in 0
@@ -85,8 +54,13 @@ Calculated  for : 11 in 0
 ------Created in 0 Added|updated 17 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 17 to cache in 0
-------Created in 0 Added|updated 16 to cache in 0
 ############## CHecked Exists for 0
+------Created in 0 Added|updated 7 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 7 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 7 to cache in 0
+Calculated  for : 7 in 0
 ------Created in 0 Added|updated 16 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 16 to cache in 0
@@ -100,13 +74,8 @@ Calculated  for : 11 in 0
 ------Created in 0 Added|updated 14 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 14 to cache in 0
-------Created in 0 Added|updated 13 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 13 to cache in 0
-------Created in 0 Added|updated 12 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 12 to cache in 0
-############## CHecked Exists for 0
+------Created in 0 Added|updated 14 to cache in 0
 ------Created in 0 Added|updated 12 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 12 to cache in 0
@@ -118,31 +87,10 @@ Calculated  for : 11 in 0
 ------Created in 0 Added|updated 12 to cache in 0
 Calculated  for : 12 in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 13 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 13 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 13 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 13 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 13 to cache in 0
-Calculated  for : 13 in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 14 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 14 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 14 to cache in 0
-############## CHecked Exists for 0
 ------Created in 0 Added|updated 14 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 14 to cache in 0
 Calculated  for : 14 in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 15 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 15 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 15 to cache in 0
 ############## CHecked Exists for 0
@@ -158,37 +106,41 @@ Calculated  for : 15 in 0
 ------Created in 0 Added|updated 16 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 16 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 16 to cache in 0
 Calculated  for : 16 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 17 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 17 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 17 to cache in 1
-############## CHecked Exists for 0
 ------Created in 0 Added|updated 17 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 17 to cache in 0
-Calculated  for : 17 in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 18 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 18 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 18 to cache in 1
+Calculated  for : 17 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 18 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 18 to cache in 0
-Calculated  for : 18 in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 18 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 18 to cache in 0
+Calculated  for : 18 in 0
 ------Created in 0 Added|updated 27 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 27 to cache in 0
 ------Created in 0 Added|updated 20 to cache in 0
+------Created in 0 Added|updated 13 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 20 to cache in 0
+------Created in 0 Added|updated 13 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 13 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 13 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 13 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 13 to cache in 0
+Calculated  for : 13 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 20 to cache in 0
 ------Created in 0 Added|updated 19 to cache in 0
@@ -199,22 +151,12 @@ Calculated  for : 18 in 2
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 19 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 19 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 19 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 19 to cache in 1
+------Created in 0 Added|updated 19 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 19 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 19 to cache in 0
-Calculated  for : 19 in 3
-############## CHecked Exists for 0
-------Created in 0 Added|updated 20 to cache in 1
-############## CHecked Exists for 1
-------Created in 0 Added|updated 20 to cache in 1
-############## CHecked Exists for 1
-------Created in 0 Added|updated 20 to cache in 2
+Calculated  for : 19 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 20 to cache in 0
 ############## CHecked Exists for 0
@@ -223,797 +165,2954 @@ Calculated  for : 19 in 3
 ------Created in 0 Added|updated 20 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 20 to cache in 0
-Calculated  for : 20 in 4
-############## CHecked Exists for 3
-------Created in 0 Added|updated 27 to cache in 3
-############## CHecked Exists for 0
-------Created in 0 Added|updated 27 to cache in 1
-------Created in 0 Added|updated 26 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 26 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 26 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 26 to cache in 1
-------Created in 0 Added|updated 25 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 25 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 25 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 25 to cache in 1
-------Created in 0 Added|updated 24 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 24 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 24 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 24 to cache in 1
-------Created in 0 Added|updated 23 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 23 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 23 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 23 to cache in 0
-------Created in 0 Added|updated 22 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 22 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 22 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 22 to cache in 0
-------Created in 0 Added|updated 21 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 21 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 21 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 21 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 21 to cache in 1
-############## CHecked Exists for 1
-------Created in 0 Added|updated 21 to cache in 2
-############## CHecked Exists for 0
-------Created in 0 Added|updated 21 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 21 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 21 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 21 to cache in 1
-Calculated  for : 21 in 5
-############## CHecked Exists for 2
-------Created in 0 Added|updated 22 to cache in 3
-############## CHecked Exists for 3
-------Created in 0 Added|updated 22 to cache in 4
-############## CHecked Exists for 1
-------Created in 0 Added|updated 22 to cache in 1
-############## CHecked Exists for 0
-------Created in 1 Added|updated 22 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 22 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 22 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 22 to cache in 1
-Calculated  for : 22 in 10
-############## CHecked Exists for 2
-------Created in 0 Added|updated 23 to cache in 3
-############## CHecked Exists for 2
-------Created in 0 Added|updated 23 to cache in 2
-############## CHecked Exists for 2
-------Created in 0 Added|updated 23 to cache in 3
-############## CHecked Exists for 0
-------Created in 0 Added|updated 23 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 23 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 23 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 23 to cache in 1
-Calculated  for : 23 in 10
-############## CHecked Exists for 3
-------Created in 0 Added|updated 24 to cache in 4
-############## CHecked Exists for 2
-------Created in 0 Added|updated 24 to cache in 2
-############## CHecked Exists for 3
-------Created in 1 Added|updated 24 to cache in 3
-############## CHecked Exists for 0
-------Created in 0 Added|updated 24 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 24 to cache in 2
-############## CHecked Exists for 0
-------Created in 0 Added|updated 24 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 24 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 24 to cache in 1
-Calculated  for : 24 in 14
-############## CHecked Exists for 5
-------Created in 0 Added|updated 25 to cache in 5
-############## CHecked Exists for 0
-------Created in 0 Added|updated 25 to cache in 0
-############## CHecked Exists for 4
-------Created in 0 Added|updated 25 to cache in 5
-############## CHecked Exists for 4
-------Created in 0 Added|updated 25 to cache in 5
-############## CHecked Exists for 0
-------Created in 0 Added|updated 25 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 25 to cache in 2
-############## CHecked Exists for 0
-------Created in 0 Added|updated 25 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 25 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 25 to cache in 1
-Calculated  for : 25 in 20
-############## CHecked Exists for 7
-------Created in 0 Added|updated 26 to cache in 7
-############## CHecked Exists for 0
-------Created in 0 Added|updated 26 to cache in 0
-############## CHecked Exists for 5
-------Created in 0 Added|updated 26 to cache in 6
-############## CHecked Exists for 6
-------Created in 0 Added|updated 26 to cache in 7
-############## CHecked Exists for 0
-------Created in 0 Added|updated 26 to cache in 0
-############## CHecked Exists for 2
-------Created in 0 Added|updated 26 to cache in 3
-############## CHecked Exists for 0
-------Created in 0 Added|updated 26 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 26 to cache in 0
-############## CHecked Exists for 2
-------Created in 0 Added|updated 26 to cache in 2
-Calculated  for : 26 in 27
-############## CHecked Exists for 10
-------Created in 0 Added|updated 27 to cache in 10
+Calculated  for : 20 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 27 to cache in 0
-############## CHecked Exists for 8
-------Created in 1 Added|updated 27 to cache in 8
-############## CHecked Exists for 8
-------Created in 0 Added|updated 27 to cache in 9
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 27 to cache in 0
-############## CHecked Exists for 5
-------Created in 0 Added|updated 27 to cache in 5
+------Created in 0 Added|updated 26 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 27 to cache in 1
+------Created in 0 Added|updated 26 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 26 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 26 to cache in 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+------Created in 0 Added|updated 24 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+------Created in 0 Added|updated 22 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 22 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 22 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 22 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 22 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 22 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 22 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 22 to cache in 0
+Calculated  for : 22 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 23 to cache in 0
+Calculated  for : 23 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 24 to cache in 0
+Calculated  for : 24 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 25 to cache in 0
+Calculated  for : 25 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 26 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 26 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 26 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 26 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 26 to cache in 0
+Calculated  for : 26 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 27 to cache in 0
-############## CHecked Exists for 2
-------Created in 0 Added|updated 27 to cache in 2
-Calculated  for : 27 in 40
-############## CHecked Exists for 12
-------Created in 0 Added|updated 36 to cache in 12
+############## CHecked Exists for 0
+------Created in 0 Added|updated 27 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 27 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 27 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 27 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 27 to cache in 0
+Calculated  for : 27 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 36 to cache in 0
-############## CHecked Exists for 2
-------Created in 0 Added|updated 36 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
 ------Created in 0 Added|updated 29 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 29 to cache in 0
-############## CHecked Exists for 4
-------Created in 0 Added|updated 29 to cache in 4
-############## CHecked Exists for 3
-------Created in 0 Added|updated 29 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 29 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 29 to cache in 0
 ------Created in 0 Added|updated 28 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 28 to cache in 0
-############## CHecked Exists for 3
-------Created in 0 Added|updated 28 to cache in 3
-############## CHecked Exists for 1
-------Created in 0 Added|updated 28 to cache in 1
-############## CHecked Exists for 13
-------Created in 1 Added|updated 28 to cache in 13
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 28 to cache in 0
-############## CHecked Exists for 12
-------Created in 1 Added|updated 28 to cache in 12
-############## CHecked Exists for 11
-------Created in 0 Added|updated 28 to cache in 12
-############## CHecked Exists for 0
-------Created in 0 Added|updated 28 to cache in 1
-############## CHecked Exists for 5
-------Created in 0 Added|updated 28 to cache in 5
-############## CHecked Exists for 0
-------Created in 0 Added|updated 28 to cache in 1
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 28 to cache in 0
-############## CHecked Exists for 2
-------Created in 0 Added|updated 28 to cache in 3
-Calculated  for : 28 in 53
-############## CHecked Exists for 17
-------Created in 0 Added|updated 29 to cache in 18
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 29 to cache in 1
-############## CHecked Exists for 13
-------Created in 0 Added|updated 29 to cache in 13
-############## CHecked Exists for 15
-------Created in 0 Added|updated 29 to cache in 16
+------Created in 0 Added|updated 28 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 29 to cache in 1
-############## CHecked Exists for 6
-------Created in 0 Added|updated 29 to cache in 6
+------Created in 0 Added|updated 28 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 29 to cache in 1
-############## CHecked Exists for 1
-------Created in 0 Added|updated 29 to cache in 1
-############## CHecked Exists for 3
-------Created in 0 Added|updated 29 to cache in 4
-Calculated  for : 29 in 68
-############## CHecked Exists for 37
-------Created in 0 Added|updated 36 to cache in 37
-############## CHecked Exists for 17
-------Created in 1 Added|updated 36 to cache in 17
-------Created in 0 Added|updated 35 to cache in 0
-############## CHecked Exists for 7
-------Created in 0 Added|updated 35 to cache in 7
+------Created in 0 Added|updated 28 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 35 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 35 to cache in 2
-############## CHecked Exists for 27
-------Created in 0 Added|updated 35 to cache in 28
-############## CHecked Exists for 12
-------Created in 0 Added|updated 35 to cache in 13
-############## CHecked Exists for 5
-------Created in 0 Added|updated 34 to cache in 5
+------Created in 0 Added|updated 28 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 34 to cache in 0
+------Created in 0 Added|updated 28 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 34 to cache in 1
-############## CHecked Exists for 20
-------Created in 0 Added|updated 34 to cache in 20
-############## CHecked Exists for 8
-------Created in 1 Added|updated 34 to cache in 9
-------Created in 0 Added|updated 33 to cache in 0
+------Created in 0 Added|updated 28 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 33 to cache in 0
+------Created in 0 Added|updated 28 to cache in 0
+Calculated  for : 28 in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 33 to cache in 1
-############## CHecked Exists for 15
-------Created in 0 Added|updated 33 to cache in 16
-############## CHecked Exists for 7
-------Created in 0 Added|updated 33 to cache in 7
-------Created in 0 Added|updated 32 to cache in 0
+------Created in 0 Added|updated 29 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 32 to cache in 0
-############## CHecked Exists for 10
-------Created in 0 Added|updated 32 to cache in 11
-############## CHecked Exists for 4
-------Created in 0 Added|updated 32 to cache in 5
-------Created in 0 Added|updated 31 to cache in 0
+------Created in 0 Added|updated 29 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 31 to cache in 0
-############## CHecked Exists for 7
-------Created in 0 Added|updated 31 to cache in 8
-############## CHecked Exists for 3
-------Created in 0 Added|updated 31 to cache in 4
-------Created in 0 Added|updated 30 to cache in 0
+------Created in 0 Added|updated 29 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 30 to cache in 0
-############## CHecked Exists for 5
-------Created in 0 Added|updated 30 to cache in 6
-############## CHecked Exists for 2
-------Created in 0 Added|updated 30 to cache in 2
-############## CHecked Exists for 23
-------Created in 0 Added|updated 30 to cache in 24
+------Created in 0 Added|updated 29 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 30 to cache in 0
-############## CHecked Exists for 18
-------Created in 0 Added|updated 30 to cache in 18
-############## CHecked Exists for 20
-------Created in 0 Added|updated 30 to cache in 21
+------Created in 0 Added|updated 29 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 30 to cache in 0
-############## CHecked Exists for 8
-------Created in 0 Added|updated 30 to cache in 9
-############## CHecked Exists for 1
-------Created in 0 Added|updated 30 to cache in 1
+------Created in 0 Added|updated 29 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 30 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 30 to cache in 1
-############## CHecked Exists for 4
-------Created in 0 Added|updated 30 to cache in 5
-Calculated  for : 30 in 87
-############## CHecked Exists for 28
-------Created in 0 Added|updated 31 to cache in 28
-############## CHecked Exists for 0
-------Created in 0 Added|updated 31 to cache in 1
-############## CHecked Exists for 23
-------Created in 0 Added|updated 31 to cache in 23
-############## CHecked Exists for 27
-------Created in 1 Added|updated 31 to cache in 28
-############## CHecked Exists for 0
-------Created in 0 Added|updated 31 to cache in 0
-############## CHecked Exists for 12
-------Created in 0 Added|updated 31 to cache in 13
-############## CHecked Exists for 1
-------Created in 0 Added|updated 31 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 31 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 31 to cache in 0
-############## CHecked Exists for 2
-------Created in 0 Added|updated 31 to cache in 3
-############## CHecked Exists for 6
-------Created in 0 Added|updated 31 to cache in 6
-Calculated  for : 31 in 116
-############## CHecked Exists for 41
-------Created in 0 Added|updated 32 to cache in 42
-############## CHecked Exists for 0
-------Created in 0 Added|updated 32 to cache in 0
-############## CHecked Exists for 30
-------Created in 1 Added|updated 32 to cache in 30
-############## CHecked Exists for 36
-------Created in 0 Added|updated 32 to cache in 36
-############## CHecked Exists for 0
-------Created in 0 Added|updated 32 to cache in 1
-############## CHecked Exists for 15
-------Created in 0 Added|updated 32 to cache in 15
-############## CHecked Exists for 2
-------Created in 1 Added|updated 32 to cache in 2
-############## CHecked Exists for 0
-------Created in 0 Added|updated 32 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 32 to cache in 0
-############## CHecked Exists for 2
-------Created in 0 Added|updated 32 to cache in 3
-############## CHecked Exists for 9
-------Created in 0 Added|updated 32 to cache in 9
-Calculated  for : 32 in 156
-############## CHecked Exists for 51
-------Created in 0 Added|updated 33 to cache in 52
-############## CHecked Exists for 0
-------Created in 0 Added|updated 33 to cache in 1
-############## CHecked Exists for 40
-------Created in 0 Added|updated 33 to cache in 40
-############## CHecked Exists for 45
-------Created in 0 Added|updated 33 to cache in 46
-############## CHecked Exists for 1
-------Created in 0 Added|updated 33 to cache in 1
-############## CHecked Exists for 20
-------Created in 0 Added|updated 33 to cache in 20
-############## CHecked Exists for 3
-------Created in 0 Added|updated 33 to cache in 4
-############## CHecked Exists for 0
-------Created in 0 Added|updated 33 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 33 to cache in 0
-############## CHecked Exists for 4
-------Created in 0 Added|updated 33 to cache in 4
-############## CHecked Exists for 12
-------Created in 0 Added|updated 33 to cache in 13
-Calculated  for : 33 in 205
-############## CHecked Exists for 74
-------Created in 0 Added|updated 34 to cache in 75
-############## CHecked Exists for 1
-------Created in 0 Added|updated 34 to cache in 2
-############## CHecked Exists for 52
-------Created in 0 Added|updated 34 to cache in 53
-############## CHecked Exists for 65
-------Created in 0 Added|updated 34 to cache in 66
-############## CHecked Exists for 1
-------Created in 0 Added|updated 34 to cache in 2
-############## CHecked Exists for 27
-------Created in 0 Added|updated 34 to cache in 28
-############## CHecked Exists for 4
-------Created in 0 Added|updated 34 to cache in 4
-############## CHecked Exists for 0
-------Created in 0 Added|updated 34 to cache in 0
-############## CHecked Exists for 0
-------Created in 0 Added|updated 34 to cache in 1
-############## CHecked Exists for 5
-------Created in 0 Added|updated 34 to cache in 5
-############## CHecked Exists for 16
-------Created in 0 Added|updated 34 to cache in 17
-Calculated  for : 34 in 289
-############## CHecked Exists for 86
-------Created in 1 Added|updated 35 to cache in 87
-############## CHecked Exists for 2
-------Created in 0 Added|updated 35 to cache in 2
-############## CHecked Exists for 69
-------Created in 1 Added|updated 35 to cache in 69
-############## CHecked Exists for 80
-------Created in 0 Added|updated 35 to cache in 81
-############## CHecked Exists for 2
-------Created in 0 Added|updated 35 to cache in 3
-############## CHecked Exists for 36
-------Created in 0 Added|updated 35 to cache in 36
-############## CHecked Exists for 5
-------Created in 0 Added|updated 35 to cache in 6
-############## CHecked Exists for 0
-------Created in 0 Added|updated 35 to cache in 1
-############## CHecked Exists for 0
-------Created in 0 Added|updated 35 to cache in 0
-############## CHecked Exists for 7
-------Created in 0 Added|updated 35 to cache in 8
-############## CHecked Exists for 22
-------Created in 0 Added|updated 35 to cache in 23
-Calculated  for : 35 in 368
-############## CHecked Exists for 115
-------Created in 1 Added|updated 36 to cache in 116
-############## CHecked Exists for 3
-------Created in 0 Added|updated 36 to cache in 3
-############## CHecked Exists for 96
-------Created in 1 Added|updated 36 to cache in 96
-############## CHecked Exists for 102
-------Created in 1 Added|updated 36 to cache in 103
-############## CHecked Exists for 3
-------Created in 0 Added|updated 36 to cache in 4
-############## CHecked Exists for 48
-------Created in 0 Added|updated 36 to cache in 49
-############## CHecked Exists for 9
-------Created in 0 Added|updated 36 to cache in 9
+------Created in 0 Added|updated 29 to cache in 0
+Calculated  for : 29 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 36 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 36 to cache in 1
-############## CHecked Exists for 9
-------Created in 0 Added|updated 36 to cache in 10
+------Created in 0 Added|updated 36 to cache in 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+------Created in 0 Added|updated 21 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 21 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 21 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 21 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 21 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 21 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 21 to cache in 0
+Calculated  for : 21 in 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 30 to cache in 0
+Calculated  for : 30 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 31 to cache in 0
+Calculated  for : 31 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 33 to cache in 0
+Calculated  for : 33 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 35 to cache in 0
+Calculated  for : 35 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 36 to cache in 0
-############## CHecked Exists for 31
-------Created in 0 Added|updated 36 to cache in 31
-Calculated  for : 36 in 495
-############## CHecked Exists for 144
-------Created in 0 Added|updated 45 to cache in 145
-############## CHecked Exists for 1
-------Created in 0 Added|updated 45 to cache in 2
-############## CHecked Exists for 3
-------Created in 0 Added|updated 45 to cache in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 36 to cache in 0
+Calculated  for : 36 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 45 to cache in 0
-############## CHecked Exists for 40
-------Created in 0 Added|updated 45 to cache in 41
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
 ------Created in 0 Added|updated 38 to cache in 0
-############## CHecked Exists for 19
-------Created in 0 Added|updated 38 to cache in 19
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 38 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 38 to cache in 1
-############## CHecked Exists for 4
-------Created in 0 Added|updated 38 to cache in 4
-############## CHecked Exists for 66
-------Created in 0 Added|updated 38 to cache in 67
-############## CHecked Exists for 31
-------Created in 0 Added|updated 38 to cache in 31
-------Created in 0 Added|updated 37 to cache in 0
-############## CHecked Exists for 13
-------Created in 0 Added|updated 37 to cache in 13
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 37 to cache in 0
-############## CHecked Exists for 3
-------Created in 0 Added|updated 37 to cache in 4
-############## CHecked Exists for 46
-------Created in 0 Added|updated 37 to cache in 47
-############## CHecked Exists for 25
-------Created in 0 Added|updated 37 to cache in 25
-############## CHecked Exists for 147
-------Created in 1 Added|updated 37 to cache in 148
-############## CHecked Exists for 4
-------Created in 0 Added|updated 37 to cache in 4
-############## CHecked Exists for 123
-------Created in 0 Added|updated 37 to cache in 124
-############## CHecked Exists for 140
-------Created in 1 Added|updated 37 to cache in 141
-############## CHecked Exists for 5
-------Created in 0 Added|updated 37 to cache in 6
-############## CHecked Exists for 65
-------Created in 0 Added|updated 37 to cache in 65
-############## CHecked Exists for 11
-------Created in 1 Added|updated 37 to cache in 11
+------Created in 0 Added|updated 38 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 37 to cache in 1
-############## CHecked Exists for 1
-------Created in 0 Added|updated 37 to cache in 1
-############## CHecked Exists for 14
-------Created in 0 Added|updated 37 to cache in 14
+------Created in 0 Added|updated 38 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 37 to cache in 0
-############## CHecked Exists for 43
-------Created in 0 Added|updated 37 to cache in 44
-Calculated  for : 37 in 651
-############## CHecked Exists for 206
-------Created in 1 Added|updated 38 to cache in 207
-############## CHecked Exists for 6
-------Created in 0 Added|updated 38 to cache in 6
-############## CHecked Exists for 159
-------Created in 1 Added|updated 38 to cache in 160
-############## CHecked Exists for 177
-------Created in 1 Added|updated 38 to cache in 178
-############## CHecked Exists for 7
-------Created in 0 Added|updated 38 to cache in 7
-############## CHecked Exists for 80
-------Created in 0 Added|updated 38 to cache in 81
-############## CHecked Exists for 15
-------Created in 0 Added|updated 38 to cache in 16
-############## CHecked Exists for 1
-------Created in 0 Added|updated 38 to cache in 1
-############## CHecked Exists for 2
-------Created in 0 Added|updated 38 to cache in 3
-############## CHecked Exists for 19
-------Created in 0 Added|updated 38 to cache in 19
+------Created in 0 Added|updated 38 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 38 to cache in 1
-############## CHecked Exists for 59
-------Created in 0 Added|updated 38 to cache in 59
-Calculated  for : 38 in 863
-############## CHecked Exists for 412
-------Created in 1 Added|updated 45 to cache in 413
-############## CHecked Exists for 240
-------Created in 1 Added|updated 45 to cache in 241
+------Created in 0 Added|updated 38 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 38 to cache in 0
+Calculated  for : 38 in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
 ------Created in 0 Added|updated 44 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 44 to cache in 0
-############## CHecked Exists for 99
-------Created in 0 Added|updated 44 to cache in 100
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 44 to cache in 0
-############## CHecked Exists for 3
-------Created in 0 Added|updated 44 to cache in 4
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 44 to cache in 0
-############## CHecked Exists for 30
-------Created in 0 Added|updated 44 to cache in 30
-############## CHecked Exists for 318
-------Created in 1 Added|updated 44 to cache in 319
-############## CHecked Exists for 162
-------Created in 0 Added|updated 44 to cache in 162
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
 ------Created in 0 Added|updated 43 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 43 to cache in 0
-############## CHecked Exists for 79
-------Created in 1 Added|updated 43 to cache in 79
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 43 to cache in 1
-############## CHecked Exists for 1
-------Created in 0 Added|updated 43 to cache in 1
+------Created in 0 Added|updated 43 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 43 to cache in 1
-############## CHecked Exists for 21
-------Created in 0 Added|updated 43 to cache in 21
-############## CHecked Exists for 252
-------Created in 1 Added|updated 43 to cache in 252
-############## CHecked Exists for 122
-------Created in 1 Added|updated 43 to cache in 122
-------Created in 0 Added|updated 42 to cache in 0
+------Created in 0 Added|updated 43 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 42 to cache in 0
-############## CHecked Exists for 58
-------Created in 0 Added|updated 42 to cache in 59
+------Created in 0 Added|updated 43 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 42 to cache in 0
-############## CHecked Exists for 1
-------Created in 0 Added|updated 42 to cache in 2
-############## CHecked Exists for 16
-------Created in 0 Added|updated 42 to cache in 16
-############## CHecked Exists for 188
-------Created in 1 Added|updated 42 to cache in 189
-############## CHecked Exists for 97
-------Created in 0 Added|updated 42 to cache in 97
+------Created in 0 Added|updated 43 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 41 to cache in 0
-############## CHecked Exists for 44
-------Created in 0 Added|updated 41 to cache in 45
+------Created in 0 Added|updated 43 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 41 to cache in 0
+------Created in 0 Added|updated 43 to cache in 0
 ############## CHecked Exists for 0
-------Created in 0 Added|updated 41 to cache in 1
-############## CHecked Exists for 12
-------Created in 0 Added|updated 41 to cache in 12
-############## CHecked Exists for 143
-------Created in 1 Added|updated 41 to cache in 143
-############## CHecked Exists for 71
-------Created in 1 Added|updated 41 to cache in 71
+------Created in 0 Added|updated 43 to cache in 0
 ------Created in 0 Added|updated 40 to cache in 0
-############## CHecked Exists for 32
-------Created in 0 Added|updated 40 to cache in 32
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 40 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 40 to cache in 1
-############## CHecked Exists for 8
-------Created in 0 Added|updated 40 to cache in 8
-############## CHecked Exists for 128
-------Created in 1 Added|updated 40 to cache in 129
-############## CHecked Exists for 54
-------Created in 0 Added|updated 40 to cache in 55
+############## CHecked Exists for 1
+------Created in 0 Added|updated 40 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 1
 ------Created in 0 Added|updated 39 to cache in 0
-############## CHecked Exists for 24
-------Created in 0 Added|updated 39 to cache in 24
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 39 to cache in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 39 to cache in 0
-############## CHecked Exists for 6
-------Created in 1 Added|updated 39 to cache in 6
-############## CHecked Exists for 86
-------Created in 0 Added|updated 39 to cache in 86
-############## CHecked Exists for 41
-------Created in 1 Added|updated 39 to cache in 41
-############## CHecked Exists for 250
-------Created in 1 Added|updated 39 to cache in 251
-############## CHecked Exists for 8
-------Created in 0 Added|updated 39 to cache in 8
-############## CHecked Exists for 201
-------Created in 1 Added|updated 39 to cache in 202
-############## CHecked Exists for 231
-------Created in 1 Added|updated 39 to cache in 231
-############## CHecked Exists for 10
-------Created in 0 Added|updated 39 to cache in 11
-############## CHecked Exists for 119
-------Created in 0 Added|updated 39 to cache in 119
-############## CHecked Exists for 21
-------Created in 0 Added|updated 39 to cache in 22
-############## CHecked Exists for 2
-------Created in 0 Added|updated 39 to cache in 2
-############## CHecked Exists for 2
-------Created in 0 Added|updated 39 to cache in 3
-############## CHecked Exists for 24
-------Created in 0 Added|updated 39 to cache in 25
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 39 to cache in 0
-############## CHecked Exists for 70
-------Created in 0 Added|updated 39 to cache in 71
-Calculated  for : 39 in 1107
-############## CHecked Exists for 321
-------Created in 1 Added|updated 40 to cache in 322
-############## CHecked Exists for 11
-------Created in 0 Added|updated 40 to cache in 12
-############## CHecked Exists for 263
-------Created in 0 Added|updated 40 to cache in 264
-############## CHecked Exists for 305
-------Created in 1 Added|updated 40 to cache in 305
-############## CHecked Exists for 13
-------Created in 0 Added|updated 40 to cache in 14
-############## CHecked Exists for 146
-------Created in 1 Added|updated 40 to cache in 146
-############## CHecked Exists for 29
-------Created in 0 Added|updated 40 to cache in 30
-############## CHecked Exists for 3
-------Created in 0 Added|updated 40 to cache in 3
-############## CHecked Exists for 3
-------Created in 0 Added|updated 40 to cache in 4
-############## CHecked Exists for 37
-------Created in 0 Added|updated 40 to cache in 38
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 39 to cache in 0
+Calculated  for : 39 in 1
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 40 to cache in 0
-############## CHecked Exists for 90
-------Created in 1 Added|updated 40 to cache in 91
-Calculated  for : 40 in 1459
-############## CHecked Exists for 418
-------Created in 2 Added|updated 41 to cache in 419
-############## CHecked Exists for 17
-------Created in 0 Added|updated 41 to cache in 17
-############## CHecked Exists for 388
-------Created in 2 Added|updated 41 to cache in 389
-############## CHecked Exists for 467
-------Created in 1 Added|updated 41 to cache in 468
-############## CHecked Exists for 22
-------Created in 0 Added|updated 41 to cache in 22
-############## CHecked Exists for 192
-------Created in 0 Added|updated 41 to cache in 194
-############## CHecked Exists for 38
-------Created in 0 Added|updated 41 to cache in 38
-############## CHecked Exists for 4
-------Created in 0 Added|updated 41 to cache in 5
-############## CHecked Exists for 5
-------Created in 0 Added|updated 41 to cache in 5
-############## CHecked Exists for 46
-------Created in 0 Added|updated 41 to cache in 47
-############## CHecked Exists for 1
-------Created in 0 Added|updated 41 to cache in 1
-############## CHecked Exists for 124
-------Created in 1 Added|updated 41 to cache in 125
-Calculated  for : 41 in 2010
-############## CHecked Exists for 535
-------Created in 3 Added|updated 42 to cache in 535
-############## CHecked Exists for 22
-------Created in 0 Added|updated 42 to cache in 22
-############## CHecked Exists for 443
-------Created in 1 Added|updated 42 to cache in 444
-############## CHecked Exists for 503
-------Created in 2 Added|updated 42 to cache in 504
-############## CHecked Exists for 27
-------Created in 0 Added|updated 42 to cache in 28
-############## CHecked Exists for 236
-------Created in 0 Added|updated 42 to cache in 237
-############## CHecked Exists for 49
-------Created in 0 Added|updated 42 to cache in 49
-############## CHecked Exists for 6
-------Created in 0 Added|updated 42 to cache in 7
-############## CHecked Exists for 8
-------Created in 0 Added|updated 42 to cache in 8
-############## CHecked Exists for 59
-------Created in 0 Added|updated 42 to cache in 59
-############## CHecked Exists for 1
-------Created in 0 Added|updated 42 to cache in 2
-############## CHecked Exists for 162
-------Created in 0 Added|updated 42 to cache in 163
-Calculated  for : 42 in 2428
-############## CHecked Exists for 694
-------Created in 2 Added|updated 43 to cache in 694
-############## CHecked Exists for 30
-------Created in 0 Added|updated 43 to cache in 31
-############## CHecked Exists for 584
-------Created in 2 Added|updated 43 to cache in 585
-############## CHecked Exists for 632
-------Created in 1 Added|updated 43 to cache in 633
-############## CHecked Exists for 37
-------Created in 0 Added|updated 43 to cache in 37
-############## CHecked Exists for 311
-------Created in 1 Added|updated 43 to cache in 312
-############## CHecked Exists for 68
-------Created in 0 Added|updated 43 to cache in 68
-############## CHecked Exists for 9
-------Created in 0 Added|updated 43 to cache in 10
-############## CHecked Exists for 11
-------Created in 0 Added|updated 43 to cache in 11
-############## CHecked Exists for 76
-------Created in 0 Added|updated 43 to cache in 77
-############## CHecked Exists for 2
-------Created in 0 Added|updated 43 to cache in 2
-############## CHecked Exists for 205
-------Created in 1 Added|updated 43 to cache in 205
-Calculated  for : 43 in 3152
-############## CHecked Exists for 922
-------Created in 3 Added|updated 44 to cache in 922
-############## CHecked Exists for 42
-------Created in 0 Added|updated 44 to cache in 43
-############## CHecked Exists for 752
-------Created in 1 Added|updated 44 to cache in 753
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 40 to cache in 0
+Calculated  for : 40 in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 43 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 43 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 43 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 43 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 43 to cache in 0
+Calculated  for : 43 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 44 to cache in 0
-############## CHecked Exists for 827
-------Created in 2 Added|updated 44 to cache in 828
-############## CHecked Exists for 56
-------Created in 0 Added|updated 44 to cache in 57
-############## CHecked Exists for 416
-------Created in 1 Added|updated 44 to cache in 416
-############## CHecked Exists for 88
-------Created in 0 Added|updated 44 to cache in 89
-############## CHecked Exists for 12
-------Created in 0 Added|updated 44 to cache in 13
-############## CHecked Exists for 16
-------Created in 0 Added|updated 44 to cache in 17
-############## CHecked Exists for 102
-------Created in 0 Added|updated 44 to cache in 103
-############## CHecked Exists for 4
-------Created in 0 Added|updated 44 to cache in 4
-############## CHecked Exists for 278
-------Created in 0 Added|updated 44 to cache in 278
-Calculated  for : 44 in 4146
-############## CHecked Exists for 1126
-------Created in 2 Added|updated 45 to cache in 1127
-############## CHecked Exists for 59
-------Created in 0 Added|updated 45 to cache in 60
-############## CHecked Exists for 1067
-------Created in 3 Added|updated 45 to cache in 1068
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 44 to cache in 0
+Calculated  for : 44 in 0
 ############## CHecked Exists for 0
 ------Created in 0 Added|updated 45 to cache in 0
-############## CHecked Exists for 1056
-------Created in 3 Added|updated 45 to cache in 1057
-############## CHecked Exists for 62
-------Created in 1 Added|updated 45 to cache in 62
-############## CHecked Exists for 515
-------Created in 1 Added|updated 45 to cache in 516
-############## CHecked Exists for 119
-------Created in 0 Added|updated 45 to cache in 120
-############## CHecked Exists for 19
-------Created in 0 Added|updated 45 to cache in 19
-############## CHecked Exists for 21
-------Created in 0 Added|updated 45 to cache in 21
-############## CHecked Exists for 135
-------Created in 0 Added|updated 45 to cache in 136
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 45 to cache in 0
+Calculated  for : 45 in 0
+------Created in 0 Added|updated 86 to cache in 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 42 to cache in 0
+Calculated  for : 42 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 1
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 49 to cache in 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 47 to cache in 0
+Calculated  for : 47 in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 48 to cache in 0
+Calculated  for : 48 in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 49 to cache in 0
+Calculated  for : 49 in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 50 to cache in 0
+Calculated  for : 50 in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 51 to cache in 0
+Calculated  for : 51 in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 52 to cache in 0
+Calculated  for : 52 in 2
+############## CHecked Exists for 3
+------Created in 0 Added|updated 86 to cache in 3
 ############## CHecked Exists for 5
-------Created in 0 Added|updated 45 to cache in 6
-############## CHecked Exists for 372
-------Created in 1 Added|updated 45 to cache in 373
-Calculated  for : 45 in 5424
+------Created in 0 Added|updated 86 to cache in 6
+------Created in 0 Added|updated 77 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 77 to cache in 2
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 34 to cache in 0
+Calculated  for : 34 in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 68 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 1
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 59 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 59 to cache in 1
+############## CHecked Exists for 4
+------Created in 0 Added|updated 59 to cache in 5
+############## CHecked Exists for 1
+------Created in 0 Added|updated 59 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 59 to cache in 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 58 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 58 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 1
+------Created in 1 Added|updated 58 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 56 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 53 to cache in 0
+Calculated  for : 53 in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 54 to cache in 0
+Calculated  for : 54 in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 55 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 55 to cache in 0
+Calculated  for : 55 in 2
+############## CHecked Exists for 0
+------Created in 1 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 56 to cache in 0
+Calculated  for : 56 in 5
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 57 to cache in 0
+Calculated  for : 57 in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 58 to cache in 0
+Calculated  for : 58 in 7
+############## CHecked Exists for 0
+------Created in 1 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 59 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 59 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 59 to cache in 0
+Calculated  for : 59 in 16
+############## CHecked Exists for 12
+------Created in 0 Added|updated 68 to cache in 12
+############## CHecked Exists for 5
+------Created in 0 Added|updated 68 to cache in 6
+############## CHecked Exists for 4
+------Created in 0 Added|updated 68 to cache in 5
+############## CHecked Exists for 4
+------Created in 0 Added|updated 68 to cache in 4
+############## CHecked Exists for 2
+------Created in 0 Added|updated 68 to cache in 2
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 3
+------Created in 1 Added|updated 61 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 4
+------Created in 0 Added|updated 60 to cache in 5
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 60 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 60 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 60 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 60 to cache in 0
+Calculated  for : 60 in 14
+############## CHecked Exists for 1
+------Created in 0 Added|updated 61 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 61 to cache in 0
+Calculated  for : 61 in 11
+############## CHecked Exists for 4
+------Created in 0 Added|updated 68 to cache in 5
+############## CHecked Exists for 3
+------Created in 0 Added|updated 68 to cache in 4
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 8
+------Created in 1 Added|updated 67 to cache in 8
+############## CHecked Exists for 2
+------Created in 1 Added|updated 67 to cache in 2
+############## CHecked Exists for 1
+------Created in 0 Added|updated 67 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 67 to cache in 1
+############## CHecked Exists for 4
+------Created in 1 Added|updated 67 to cache in 4
+############## CHecked Exists for 2
+------Created in 0 Added|updated 67 to cache in 2
+------Created in 0 Added|updated 66 to cache in 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 32 to cache in 0
+Calculated  for : 32 in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+############## CHecked Exists for 4
+------Created in 0 Added|updated 66 to cache in 5
+############## CHecked Exists for 1
+------Created in 0 Added|updated 66 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 66 to cache in 2
+############## CHecked Exists for 1
+------Created in 0 Added|updated 66 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 1
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 3
+------Created in 0 Added|updated 65 to cache in 4
+############## CHecked Exists for 2
+------Created in 0 Added|updated 65 to cache in 3
+############## CHecked Exists for 1
+------Created in 0 Added|updated 65 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 1
+############## CHecked Exists for 2
+------Created in 0 Added|updated 65 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+------Created in 0 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 1
+############## CHecked Exists for 2
+------Created in 0 Added|updated 64 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 64 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 64 to cache in 2
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 3
+------Created in 1 Added|updated 63 to cache in 3
+############## CHecked Exists for 1
+------Created in 0 Added|updated 63 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 63 to cache in 3
+############## CHecked Exists for 1
+------Created in 0 Added|updated 63 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 1
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 62 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 62 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 62 to cache in 1
+############## CHecked Exists for 1
+------Created in 1 Added|updated 62 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 1
+############## CHecked Exists for 2
+------Created in 0 Added|updated 62 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 1
+------Created in 1 Added|updated 62 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 62 to cache in 0
+Calculated  for : 62 in 14
+############## CHecked Exists for 4
+------Created in 0 Added|updated 63 to cache in 4
+############## CHecked Exists for 0
+------Created in 1 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 63 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 63 to cache in 0
+Calculated  for : 63 in 20
+############## CHecked Exists for 3
+------Created in 0 Added|updated 64 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 64 to cache in 0
+Calculated  for : 64 in 14
+############## CHecked Exists for 2
+------Created in 0 Added|updated 65 to cache in 3
+############## CHecked Exists for 1
+------Created in 0 Added|updated 65 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 65 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 65 to cache in 0
+Calculated  for : 65 in 21
+############## CHecked Exists for 1
+------Created in 0 Added|updated 66 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 66 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 66 to cache in 0
+Calculated  for : 66 in 16
+############## CHecked Exists for 1
+------Created in 0 Added|updated 67 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 67 to cache in 0
+Calculated  for : 67 in 26
+############## CHecked Exists for 5
+------Created in 1 Added|updated 68 to cache in 5
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 1
+############## CHecked Exists for 3
+------Created in 0 Added|updated 68 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 68 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 68 to cache in 0
+Calculated  for : 68 in 53
+############## CHecked Exists for 22
+------Created in 0 Added|updated 77 to cache in 23
+############## CHecked Exists for 2
+------Created in 0 Added|updated 77 to cache in 3
+############## CHecked Exists for 2
+------Created in 0 Added|updated 77 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 77 to cache in 3
+############## CHecked Exists for 3
+------Created in 0 Added|updated 77 to cache in 3
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 1
+############## CHecked Exists for 10
+------Created in 0 Added|updated 70 to cache in 11
+############## CHecked Exists for 2
+------Created in 0 Added|updated 70 to cache in 3
+############## CHecked Exists for 4
+------Created in 0 Added|updated 70 to cache in 4
+############## CHecked Exists for 3
+------Created in 0 Added|updated 70 to cache in 3
+############## CHecked Exists for 1
+------Created in 1 Added|updated 70 to cache in 1
+############## CHecked Exists for 9
+------Created in 0 Added|updated 70 to cache in 10
+############## CHecked Exists for 2
+------Created in 0 Added|updated 70 to cache in 2
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 1
+############## CHecked Exists for 12
+------Created in 0 Added|updated 69 to cache in 12
+############## CHecked Exists for 4
+------Created in 1 Added|updated 69 to cache in 4
+############## CHecked Exists for 3
+------Created in 0 Added|updated 69 to cache in 4
+############## CHecked Exists for 1
+------Created in 0 Added|updated 69 to cache in 2
+############## CHecked Exists for 11
+------Created in 0 Added|updated 69 to cache in 11
+############## CHecked Exists for 1
+------Created in 1 Added|updated 69 to cache in 1
+############## CHecked Exists for 10
+------Created in 1 Added|updated 69 to cache in 10
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 1
+------Created in 1 Added|updated 69 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 69 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 69 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 69 to cache in 0
+Calculated  for : 69 in 53
+############## CHecked Exists for 9
+------Created in 0 Added|updated 70 to cache in 10
+############## CHecked Exists for 2
+------Created in 0 Added|updated 70 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 70 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 70 to cache in 0
+Calculated  for : 70 in 51
+############## CHecked Exists for 11
+------Created in 0 Added|updated 77 to cache in 11
+############## CHecked Exists for 6
+------Created in 1 Added|updated 77 to cache in 6
+------Created in 0 Added|updated 76 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 76 to cache in 1
+############## CHecked Exists for 21
+------Created in 1 Added|updated 76 to cache in 22
+############## CHecked Exists for 2
+------Created in 0 Added|updated 76 to cache in 2
+############## CHecked Exists for 1
+------Created in 0 Added|updated 76 to cache in 1
+############## CHecked Exists for 3
+------Created in 1 Added|updated 76 to cache in 3
+############## CHecked Exists for 30
+------Created in 1 Added|updated 76 to cache in 30
+############## CHecked Exists for 14
+------Created in 0 Added|updated 76 to cache in 15
+------Created in 0 Added|updated 75 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 75 to cache in 1
+############## CHecked Exists for 11
+------Created in 1 Added|updated 75 to cache in 11
+############## CHecked Exists for 4
+------Created in 0 Added|updated 75 to cache in 4
+############## CHecked Exists for 1
+------Created in 0 Added|updated 75 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 75 to cache in 2
+############## CHecked Exists for 3
+------Created in 0 Added|updated 75 to cache in 4
+############## CHecked Exists for 9
+------Created in 0 Added|updated 75 to cache in 10
+############## CHecked Exists for 5
+------Created in 0 Added|updated 75 to cache in 6
+------Created in 0 Added|updated 74 to cache in 0
+############## CHecked Exists for 2
+------Created in 0 Added|updated 74 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 74 to cache in 3
+############## CHecked Exists for 25
+------Created in 0 Added|updated 74 to cache in 25
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 37 to cache in 0
+Calculated  for : 37 in 0
+############## CHecked Exists for 4
+------Created in 0 Added|updated 74 to cache in 5
+############## CHecked Exists for 3
+------Created in 0 Added|updated 74 to cache in 4
+############## CHecked Exists for 4
+------Created in 0 Added|updated 74 to cache in 4
+############## CHecked Exists for 14
+------Created in 1 Added|updated 74 to cache in 14
+############## CHecked Exists for 5
+------Created in 0 Added|updated 74 to cache in 5
+------Created in 0 Added|updated 73 to cache in 0
+############## CHecked Exists for 2
+------Created in 0 Added|updated 73 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 73 to cache in 3
+############## CHecked Exists for 12
+------Created in 0 Added|updated 73 to cache in 12
+############## CHecked Exists for 2
+------Created in 0 Added|updated 73 to cache in 2
+############## CHecked Exists for 4
+------Created in 0 Added|updated 73 to cache in 5
+############## CHecked Exists for 13
+------Created in 0 Added|updated 73 to cache in 13
+############## CHecked Exists for 8
+------Created in 1 Added|updated 73 to cache in 8
+############## CHecked Exists for 4
+------Created in 0 Added|updated 73 to cache in 5
+------Created in 0 Added|updated 72 to cache in 0
+############## CHecked Exists for 3
+------Created in 0 Added|updated 72 to cache in 3
+############## CHecked Exists for 2
+------Created in 1 Added|updated 72 to cache in 2
+############## CHecked Exists for 27
+------Created in 0 Added|updated 72 to cache in 28
+############## CHecked Exists for 1
+------Created in 0 Added|updated 72 to cache in 2
+############## CHecked Exists for 3
+------Created in 0 Added|updated 72 to cache in 4
+############## CHecked Exists for 3
+------Created in 0 Added|updated 72 to cache in 4
+############## CHecked Exists for 8
+------Created in 0 Added|updated 72 to cache in 8
+############## CHecked Exists for 14
+------Created in 1 Added|updated 72 to cache in 15
+############## CHecked Exists for 4
+------Created in 0 Added|updated 72 to cache in 5
+------Created in 0 Added|updated 71 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 71 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 71 to cache in 1
+############## CHecked Exists for 13
+------Created in 1 Added|updated 71 to cache in 13
+############## CHecked Exists for 1
+------Created in 0 Added|updated 71 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 71 to cache in 3
+############## CHecked Exists for 3
+------Created in 0 Added|updated 71 to cache in 4
+############## CHecked Exists for 9
+------Created in 0 Added|updated 71 to cache in 10
+############## CHecked Exists for 1
+------Created in 0 Added|updated 71 to cache in 2
+############## CHecked Exists for 14
+------Created in 1 Added|updated 71 to cache in 14
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 1
+############## CHecked Exists for 4
+------Created in 1 Added|updated 71 to cache in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 71 to cache in 0
+Calculated  for : 71 in 60
+############## CHecked Exists for 21
+------Created in 1 Added|updated 72 to cache in 22
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 0
+############## CHecked Exists for 2
+------Created in 1 Added|updated 72 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 72 to cache in 0
+Calculated  for : 72 in 102
+############## CHecked Exists for 18
+------Created in 0 Added|updated 73 to cache in 19
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 1
+############## CHecked Exists for 4
+------Created in 1 Added|updated 73 to cache in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 73 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 73 to cache in 0
+Calculated  for : 73 in 79
+############## CHecked Exists for 39
+------Created in 1 Added|updated 74 to cache in 40
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 1
+############## CHecked Exists for 5
+------Created in 0 Added|updated 74 to cache in 5
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 74 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 74 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 74 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 74 to cache in 0
+Calculated  for : 74 in 115
+############## CHecked Exists for 24
+------Created in 1 Added|updated 75 to cache in 24
+############## CHecked Exists for 0
+------Created in 1 Added|updated 75 to cache in 0
+############## CHecked Exists for 2
+------Created in 1 Added|updated 75 to cache in 2
+############## CHecked Exists for 1
+------Created in 1 Added|updated 75 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 75 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 75 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 75 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 75 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 75 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 75 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 75 to cache in 0
+Calculated  for : 75 in 74
+############## CHecked Exists for 32
+------Created in 1 Added|updated 76 to cache in 33
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 1
+############## CHecked Exists for 7
+------Created in 0 Added|updated 76 to cache in 8
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 0
+############## CHecked Exists for 3
+------Created in 1 Added|updated 76 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 76 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 76 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 76 to cache in 0
+Calculated  for : 76 in 128
+############## CHecked Exists for 23
+------Created in 1 Added|updated 77 to cache in 23
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 1
+############## CHecked Exists for 2
+------Created in 0 Added|updated 77 to cache in 3
+############## CHecked Exists for 1
+------Created in 1 Added|updated 77 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 77 to cache in 0
+Calculated  for : 77 in 86
+############## CHecked Exists for 82
+------Created in 1 Added|updated 86 to cache in 83
+############## CHecked Exists for 4
+------Created in 0 Added|updated 86 to cache in 5
+############## CHecked Exists for 7
+------Created in 0 Added|updated 86 to cache in 8
+############## CHecked Exists for 1
+------Created in 0 Added|updated 86 to cache in 1
+############## CHecked Exists for 10
+------Created in 0 Added|updated 86 to cache in 11
+------Created in 0 Added|updated 79 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 79 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 79 to cache in 1
+############## CHecked Exists for 28
+------Created in 1 Added|updated 79 to cache in 28
+############## CHecked Exists for 2
+------Created in 0 Added|updated 79 to cache in 3
+############## CHecked Exists for 2
+------Created in 0 Added|updated 79 to cache in 2
+############## CHecked Exists for 5
+------Created in 0 Added|updated 79 to cache in 6
+############## CHecked Exists for 25
+------Created in 0 Added|updated 79 to cache in 26
+############## CHecked Exists for 8
+------Created in 0 Added|updated 79 to cache in 8
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 2
+------Created in 0 Added|updated 78 to cache in 3
+############## CHecked Exists for 25
+------Created in 0 Added|updated 78 to cache in 26
+############## CHecked Exists for 2
+------Created in 0 Added|updated 78 to cache in 2
+############## CHecked Exists for 3
+------Created in 0 Added|updated 78 to cache in 4
+############## CHecked Exists for 24
+------Created in 1 Added|updated 78 to cache in 24
+############## CHecked Exists for 7
+------Created in 0 Added|updated 78 to cache in 8
+############## CHecked Exists for 25
+------Created in 1 Added|updated 78 to cache in 25
+############## CHecked Exists for 1
+------Created in 0 Added|updated 78 to cache in 1
+############## CHecked Exists for 3
+------Created in 1 Added|updated 78 to cache in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 2
+------Created in 1 Added|updated 78 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 78 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 78 to cache in 0
+Calculated  for : 78 in 106
+############## CHecked Exists for 35
+------Created in 1 Added|updated 79 to cache in 36
+############## CHecked Exists for 1
+------Created in 0 Added|updated 79 to cache in 1
+############## CHecked Exists for 6
+------Created in 1 Added|updated 79 to cache in 6
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 0
+############## CHecked Exists for 1
+------Created in 1 Added|updated 79 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 79 to cache in 0
+Calculated  for : 79 in 125
+############## CHecked Exists for 106
+------Created in 1 Added|updated 86 to cache in 107
+############## CHecked Exists for 37
+------Created in 0 Added|updated 86 to cache in 38
+------Created in 0 Added|updated 85 to cache in 0
+############## CHecked Exists for 2
+------Created in 0 Added|updated 85 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 85 to cache in 3
+############## CHecked Exists for 81
+------Created in 1 Added|updated 85 to cache in 82
+############## CHecked Exists for 3
+------Created in 0 Added|updated 85 to cache in 3
+############## CHecked Exists for 8
+------Created in 0 Added|updated 85 to cache in 8
+############## CHecked Exists for 4
+------Created in 0 Added|updated 85 to cache in 5
+############## CHecked Exists for 23
+------Created in 0 Added|updated 85 to cache in 23
+############## CHecked Exists for 100
+------Created in 1 Added|updated 85 to cache in 101
+############## CHecked Exists for 30
+------Created in 0 Added|updated 85 to cache in 31
+------Created in 0 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 84 to cache in 0
+############## CHecked Exists for 2
+------Created in 0 Added|updated 84 to cache in 2
+############## CHecked Exists for 45
+------Created in 1 Added|updated 84 to cache in 45
+############## CHecked Exists for 3
+------Created in 0 Added|updated 84 to cache in 4
+############## CHecked Exists for 10
+------Created in 0 Added|updated 84 to cache in 10
+############## CHecked Exists for 3
+------Created in 1 Added|updated 84 to cache in 3
+############## CHecked Exists for 11
+------Created in 0 Added|updated 84 to cache in 12
+############## CHecked Exists for 43
+------Created in 0 Added|updated 84 to cache in 44
+############## CHecked Exists for 16
+------Created in 0 Added|updated 84 to cache in 16
+------Created in 0 Added|updated 83 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 83 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 83 to cache in 1
+############## CHecked Exists for 50
+------Created in 2 Added|updated 83 to cache in 50
+############## CHecked Exists for 9
+------Created in 0 Added|updated 83 to cache in 10
+############## CHecked Exists for 13
+------Created in 0 Added|updated 83 to cache in 13
+############## CHecked Exists for 98
+------Created in 1 Added|updated 83 to cache in 99
+############## CHecked Exists for 24
+------Created in 0 Added|updated 83 to cache in 24
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 41 to cache in 0
+Calculated  for : 41 in 1
+------Created in 0 Added|updated 82 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 82 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 82 to cache in 1
+############## CHecked Exists for 45
+------Created in 1 Added|updated 82 to cache in 46
+############## CHecked Exists for 2
+------Created in 0 Added|updated 82 to cache in 2
+############## CHecked Exists for 5
+------Created in 0 Added|updated 82 to cache in 5
+############## CHecked Exists for 2
+------Created in 0 Added|updated 82 to cache in 3
+############## CHecked Exists for 7
+------Created in 0 Added|updated 82 to cache in 8
+############## CHecked Exists for 39
+------Created in 1 Added|updated 82 to cache in 39
+############## CHecked Exists for 15
+------Created in 1 Added|updated 82 to cache in 15
+------Created in 0 Added|updated 81 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 81 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 81 to cache in 1
+############## CHecked Exists for 61
+------Created in 1 Added|updated 81 to cache in 62
+############## CHecked Exists for 1
+------Created in 0 Added|updated 81 to cache in 1
+############## CHecked Exists for 3
+------Created in 0 Added|updated 81 to cache in 4
+############## CHecked Exists for 2
+------Created in 0 Added|updated 81 to cache in 2
+############## CHecked Exists for 8
+------Created in 1 Added|updated 81 to cache in 8
+############## CHecked Exists for 64
+------Created in 1 Added|updated 81 to cache in 65
+############## CHecked Exists for 21
+------Created in 0 Added|updated 81 to cache in 22
+------Created in 0 Added|updated 80 to cache in 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 46 to cache in 0
+Calculated  for : 46 in 2
+############## CHecked Exists for 4
+------Created in 0 Added|updated 80 to cache in 5
+############## CHecked Exists for 38
+------Created in 0 Added|updated 80 to cache in 38
+############## CHecked Exists for 1
+------Created in 0 Added|updated 80 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 80 to cache in 2
+############## CHecked Exists for 5
+------Created in 0 Added|updated 80 to cache in 6
+############## CHecked Exists for 8
+------Created in 0 Added|updated 80 to cache in 8
+############## CHecked Exists for 28
+------Created in 0 Added|updated 80 to cache in 29
+############## CHecked Exists for 8
+------Created in 0 Added|updated 80 to cache in 8
+############## CHecked Exists for 49
+------Created in 1 Added|updated 80 to cache in 50
+############## CHecked Exists for 1
+------Created in 0 Added|updated 80 to cache in 1
+############## CHecked Exists for 6
+------Created in 1 Added|updated 80 to cache in 6
+############## CHecked Exists for 4
+------Created in 1 Added|updated 80 to cache in 4
+############## CHecked Exists for 0
+------Created in 1 Added|updated 80 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 80 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 80 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 80 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 80 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 80 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 80 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 80 to cache in 0
+Calculated  for : 80 in 165
+############## CHecked Exists for 88
+------Created in 1 Added|updated 81 to cache in 89
+############## CHecked Exists for 2
+------Created in 0 Added|updated 81 to cache in 3
+############## CHecked Exists for 14
+------Created in 1 Added|updated 81 to cache in 14
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 1
+############## CHecked Exists for 3
+------Created in 1 Added|updated 81 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 81 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 81 to cache in 0
+Calculated  for : 81 in 286
+############## CHecked Exists for 83
+------Created in 2 Added|updated 82 to cache in 83
+############## CHecked Exists for 2
+------Created in 0 Added|updated 82 to cache in 2
+############## CHecked Exists for 12
+------Created in 1 Added|updated 82 to cache in 13
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 0
+############## CHecked Exists for 4
+------Created in 1 Added|updated 82 to cache in 5
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 82 to cache in 0
+Calculated  for : 82 in 233
+############## CHecked Exists for 175
+------Created in 2 Added|updated 83 to cache in 175
+############## CHecked Exists for 5
+------Created in 1 Added|updated 83 to cache in 5
+############## CHecked Exists for 20
+------Created in 1 Added|updated 83 to cache in 20
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 1
+############## CHecked Exists for 7
+------Created in 1 Added|updated 83 to cache in 7
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 83 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 83 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 83 to cache in 0
+Calculated  for : 83 in 417
+############## CHecked Exists for 147
+------Created in 3 Added|updated 84 to cache in 148
+############## CHecked Exists for 1
+------Created in 0 Added|updated 84 to cache in 2
+############## CHecked Exists for 20
+------Created in 1 Added|updated 84 to cache in 20
+############## CHecked Exists for 8
+------Created in 1 Added|updated 84 to cache in 9
+############## CHecked Exists for 0
+------Created in 0 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 84 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 84 to cache in 0
+Calculated  for : 84 in 325
+############## CHecked Exists for 229
+------Created in 3 Added|updated 85 to cache in 230
+############## CHecked Exists for 2
+------Created in 0 Added|updated 85 to cache in 3
+############## CHecked Exists for 30
+------Created in 2 Added|updated 85 to cache in 30
+############## CHecked Exists for 10
+------Created in 2 Added|updated 85 to cache in 11
+############## CHecked Exists for 0
+------Created in 0 Added|updated 85 to cache in 1
+############## CHecked Exists for 1
+------Created in 1 Added|updated 85 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 85 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 85 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 85 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 85 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 85 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 85 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 85 to cache in 0
+Calculated  for : 85 in 546
+############## CHecked Exists for 276
+------Created in 2 Added|updated 86 to cache in 277
+############## CHecked Exists for 7
+------Created in 0 Added|updated 86 to cache in 7
+############## CHecked Exists for 31
+------Created in 1 Added|updated 86 to cache in 32
+############## CHecked Exists for 0
+------Created in 0 Added|updated 86 to cache in 1
+############## CHecked Exists for 14
+------Created in 1 Added|updated 86 to cache in 14
+############## CHecked Exists for 0
+------Created in 1 Added|updated 86 to cache in 0
+############## CHecked Exists for 1
+------Created in 1 Added|updated 86 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 86 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 86 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 86 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 86 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 86 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 86 to cache in 0
+Calculated  for : 86 in 606
+------Created in 2 Added|updated 127 to cache in 0
+------Created in 0 Added|updated 93 to cache in 0
+############## CHecked Exists for 12
+------Created in 0 Added|updated 93 to cache in 12
+############## CHecked Exists for 7
+------Created in 0 Added|updated 93 to cache in 8
+############## CHecked Exists for 526
+------Created in 4 Added|updated 93 to cache in 528
+############## CHecked Exists for 27
+------Created in 0 Added|updated 93 to cache in 27
+############## CHecked Exists for 50
+------Created in 0 Added|updated 93 to cache in 51
+############## CHecked Exists for 33
+------Created in 1 Added|updated 93 to cache in 33
+############## CHecked Exists for 181
+------Created in 1 Added|updated 93 to cache in 181
+############## CHecked Exists for 1020
+------Created in 3 Added|updated 93 to cache in 1021
+############## CHecked Exists for 261
+------Created in 1 Added|updated 93 to cache in 262
+------Created in 0 Added|updated 92 to cache in 0
+############## CHecked Exists for 9
+------Created in 0 Added|updated 92 to cache in 10
+############## CHecked Exists for 9
+------Created in 0 Added|updated 92 to cache in 9
+############## CHecked Exists for 461
+------Created in 2 Added|updated 92 to cache in 463
+############## CHecked Exists for 16
+------Created in 0 Added|updated 92 to cache in 16
+############## CHecked Exists for 32
+------Created in 1 Added|updated 92 to cache in 33
+############## CHecked Exists for 14
+------Created in 0 Added|updated 92 to cache in 14
+############## CHecked Exists for 99
+------Created in 0 Added|updated 92 to cache in 100
+############## CHecked Exists for 726
+------Created in 2 Added|updated 92 to cache in 727
+############## CHecked Exists for 218
+------Created in 1 Added|updated 92 to cache in 219
+------Created in 0 Added|updated 91 to cache in 0
+############## CHecked Exists for 2
+------Created in 0 Added|updated 91 to cache in 2
+############## CHecked Exists for 1
+------Created in 0 Added|updated 91 to cache in 2
+############## CHecked Exists for 200
+------Created in 2 Added|updated 91 to cache in 200
+############## CHecked Exists for 13
+------Created in 0 Added|updated 91 to cache in 14
+############## CHecked Exists for 30
+------Created in 0 Added|updated 91 to cache in 30
+############## CHecked Exists for 5
+------Created in 0 Added|updated 91 to cache in 5
+############## CHecked Exists for 37
+------Created in 1 Added|updated 91 to cache in 38
+############## CHecked Exists for 378
+------Created in 1 Added|updated 91 to cache in 379
+############## CHecked Exists for 104
+------Created in 1 Added|updated 91 to cache in 105
+------Created in 0 Added|updated 90 to cache in 0
+############## CHecked Exists for 5
+------Created in 0 Added|updated 90 to cache in 5
+############## CHecked Exists for 1
+------Created in 0 Added|updated 90 to cache in 1
+############## CHecked Exists for 297
+------Created in 2 Added|updated 90 to cache in 298
+############## CHecked Exists for 13
+------Created in 0 Added|updated 90 to cache in 13
+############## CHecked Exists for 25
+------Created in 0 Added|updated 90 to cache in 25
+############## CHecked Exists for 4
+------Created in 1 Added|updated 90 to cache in 4
+############## CHecked Exists for 63
+------Created in 1 Added|updated 90 to cache in 63
+############## CHecked Exists for 529
+------Created in 2 Added|updated 90 to cache in 531
+############## CHecked Exists for 104
+------Created in 0 Added|updated 90 to cache in 105
+------Created in 0 Added|updated 89 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 89 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 89 to cache in 1
+############## CHecked Exists for 129
+------Created in 1 Added|updated 89 to cache in 130
+############## CHecked Exists for 15
+------Created in 0 Added|updated 89 to cache in 15
+############## CHecked Exists for 11
+------Created in 0 Added|updated 89 to cache in 12
+############## CHecked Exists for 3
+------Created in 0 Added|updated 89 to cache in 4
+############## CHecked Exists for 25
+------Created in 0 Added|updated 89 to cache in 26
+############## CHecked Exists for 209
+------Created in 2 Added|updated 89 to cache in 209
+############## CHecked Exists for 110
+------Created in 0 Added|updated 89 to cache in 111
+------Created in 0 Added|updated 88 to cache in 0
+############## CHecked Exists for 2
+------Created in 0 Added|updated 88 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 88 to cache in 3
+############## CHecked Exists for 102
+------Created in 1 Added|updated 88 to cache in 103
+############## CHecked Exists for 17
+------Created in 0 Added|updated 88 to cache in 17
+############## CHecked Exists for 9
+------Created in 0 Added|updated 88 to cache in 10
+############## CHecked Exists for 23
+------Created in 0 Added|updated 88 to cache in 23
+############## CHecked Exists for 261
+------Created in 2 Added|updated 88 to cache in 262
+############## CHecked Exists for 81
+------Created in 0 Added|updated 88 to cache in 82
+------Created in 0 Added|updated 87 to cache in 0
+############## CHecked Exists for 3
+------Created in 0 Added|updated 87 to cache in 3
+############## CHecked Exists for 109
+------Created in 1 Added|updated 87 to cache in 109
+############## CHecked Exists for 9
+------Created in 0 Added|updated 87 to cache in 10
+############## CHecked Exists for 8
+------Created in 0 Added|updated 87 to cache in 9
+############## CHecked Exists for 2
+------Created in 0 Added|updated 87 to cache in 2
+############## CHecked Exists for 13
+------Created in 0 Added|updated 87 to cache in 14
+############## CHecked Exists for 126
+------Created in 1 Added|updated 87 to cache in 127
+############## CHecked Exists for 53
+------Created in 0 Added|updated 87 to cache in 54
+############## CHecked Exists for 368
+------Created in 3 Added|updated 87 to cache in 369
+############## CHecked Exists for 6
+------Created in 0 Added|updated 87 to cache in 6
+############## CHecked Exists for 42
+------Created in 2 Added|updated 87 to cache in 42
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 1
+############## CHecked Exists for 16
+------Created in 2 Added|updated 87 to cache in 16
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 87 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 87 to cache in 0
+Calculated  for : 87 in 777
+############## CHecked Exists for 538
+------Created in 3 Added|updated 88 to cache in 539
+############## CHecked Exists for 3
+------Created in 1 Added|updated 88 to cache in 4
+############## CHecked Exists for 63
+------Created in 1 Added|updated 88 to cache in 64
+############## CHecked Exists for 0
+------Created in 0 Added|updated 88 to cache in 1
+############## CHecked Exists for 24
+------Created in 1 Added|updated 88 to cache in 25
+############## CHecked Exists for 0
+------Created in 0 Added|updated 88 to cache in 0
+############## CHecked Exists for 1
+------Created in 1 Added|updated 88 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 88 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 88 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 88 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 88 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 88 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 88 to cache in 0
+Calculated  for : 88 in 1150
+############## CHecked Exists for 640
+------Created in 4 Added|updated 89 to cache in 641
+############## CHecked Exists for 10
+------Created in 0 Added|updated 89 to cache in 11
+############## CHecked Exists for 79
+------Created in 3 Added|updated 89 to cache in 79
+############## CHecked Exists for 32
+------Created in 3 Added|updated 89 to cache in 32
+############## CHecked Exists for 0
+------Created in 0 Added|updated 89 to cache in 1
+############## CHecked Exists for 4
+------Created in 1 Added|updated 89 to cache in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 89 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 89 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 89 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 89 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 89 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 89 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 89 to cache in 0
+Calculated  for : 89 in 1295
+############## CHecked Exists for 1029
+------Created in 4 Added|updated 90 to cache in 1030
+############## CHecked Exists for 9
+------Created in 0 Added|updated 90 to cache in 9
+############## CHecked Exists for 117
+------Created in 3 Added|updated 90 to cache in 117
+############## CHecked Exists for 1
+------Created in 0 Added|updated 90 to cache in 2
+############## CHecked Exists for 40
+------Created in 3 Added|updated 90 to cache in 40
+############## CHecked Exists for 3
+------Created in 0 Added|updated 90 to cache in 4
+############## CHecked Exists for 3
+------Created in 1 Added|updated 90 to cache in 3
+############## CHecked Exists for 0
+------Created in 0 Added|updated 90 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 90 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 90 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 90 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 90 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 90 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 90 to cache in 0
+Calculated  for : 90 in 2271
+############## CHecked Exists for 1070
+------Created in 6 Added|updated 91 to cache in 1071
+############## CHecked Exists for 7
+------Created in 0 Added|updated 91 to cache in 7
+############## CHecked Exists for 126
+------Created in 4 Added|updated 91 to cache in 127
+############## CHecked Exists for 0
+------Created in 0 Added|updated 91 to cache in 1
+############## CHecked Exists for 39
+------Created in 3 Added|updated 91 to cache in 39
+############## CHecked Exists for 1
+------Created in 0 Added|updated 91 to cache in 2
+############## CHecked Exists for 1
+------Created in 1 Added|updated 91 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 91 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 91 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 91 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 91 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 91 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 91 to cache in 0
+Calculated  for : 91 in 2046
+############## CHecked Exists for 1834
+------Created in 5 Added|updated 92 to cache in 1836
+############## CHecked Exists for 35
+------Created in 0 Added|updated 92 to cache in 36
+############## CHecked Exists for 184
+------Created in 4 Added|updated 92 to cache in 184
+############## CHecked Exists for 4
+------Created in 0 Added|updated 92 to cache in 5
+############## CHecked Exists for 64
+------Created in 5 Added|updated 92 to cache in 65
+############## CHecked Exists for 1
+------Created in 1 Added|updated 92 to cache in 1
+############## CHecked Exists for 5
+------Created in 1 Added|updated 92 to cache in 6
+############## CHecked Exists for 0
+------Created in 0 Added|updated 92 to cache in 0
+############## CHecked Exists for 2
+------Created in 1 Added|updated 92 to cache in 2
+############## CHecked Exists for 1
+------Created in 0 Added|updated 92 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 92 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 92 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 92 to cache in 0
+############## CHecked Exists for 0
+------Created in 2 Added|updated 92 to cache in 0
+Calculated  for : 92 in 3753
+############## CHecked Exists for 2058
+------Created in 6 Added|updated 93 to cache in 2060
+############## CHecked Exists for 18
+------Created in 0 Added|updated 93 to cache in 19
+############## CHecked Exists for 232
+------Created in 5 Added|updated 93 to cache in 233
+############## CHecked Exists for 0
+------Created in 0 Added|updated 93 to cache in 0
+############## CHecked Exists for 74
+------Created in 4 Added|updated 93 to cache in 74
+############## CHecked Exists for 2
+------Created in 0 Added|updated 93 to cache in 3
+############## CHecked Exists for 7
+------Created in 2 Added|updated 93 to cache in 7
+############## CHecked Exists for 1
+------Created in 0 Added|updated 93 to cache in 1
+############## CHecked Exists for 1
+------Created in 1 Added|updated 93 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 93 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 93 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 93 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 93 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 93 to cache in 0
+Calculated  for : 93 in 4552
+############## CHecked Exists for 7102
+------Created in 6 Added|updated 127 to cache in 7108
+############## CHecked Exists for 2806
+------Created in 1 Added|updated 127 to cache in 2808
+------Created in 0 Added|updated 118 to cache in 0
+############## CHecked Exists for 578
+------Created in 3 Added|updated 118 to cache in 579
+############## CHecked Exists for 349
+------Created in 1 Added|updated 118 to cache in 349
+------Created in 0 Added|updated 109 to cache in 0
+############## CHecked Exists for 127
+------Created in 0 Added|updated 109 to cache in 128
+############## CHecked Exists for 72
+------Created in 0 Added|updated 109 to cache in 73
+------Created in 0 Added|updated 100 to cache in 0
+############## CHecked Exists for 24
+------Created in 0 Added|updated 100 to cache in 25
+############## CHecked Exists for 14
+------Created in 0 Added|updated 100 to cache in 15
+############## CHecked Exists for 2242
+------Created in 11 Added|updated 100 to cache in 2245
+############## CHecked Exists for 159
+------Created in 0 Added|updated 100 to cache in 159
+############## CHecked Exists for 190
+------Created in 1 Added|updated 100 to cache in 190
+############## CHecked Exists for 47
+------Created in 0 Added|updated 100 to cache in 48
+############## CHecked Exists for 493
+------Created in 1 Added|updated 100 to cache in 494
+############## CHecked Exists for 6219
+------Created in 9 Added|updated 100 to cache in 6224
+############## CHecked Exists for 2303
+------Created in 3 Added|updated 100 to cache in 2305
+------Created in 0 Added|updated 99 to cache in 0
+############## CHecked Exists for 22
+------Created in 0 Added|updated 99 to cache in 23
+############## CHecked Exists for 7
+------Created in 0 Added|updated 99 to cache in 7
+############## CHecked Exists for 2436
+------Created in 5 Added|updated 99 to cache in 2439
+############## CHecked Exists for 128
+------Created in 1 Added|updated 99 to cache in 128
+############## CHecked Exists for 128
+------Created in 1 Added|updated 99 to cache in 128
+############## CHecked Exists for 33
+------Created in 1 Added|updated 99 to cache in 33
+############## CHecked Exists for 502
+------Created in 1 Added|updated 99 to cache in 503
+############## CHecked Exists for 5383
+------Created in 8 Added|updated 99 to cache in 5388
+############## CHecked Exists for 1935
+------Created in 2 Added|updated 99 to cache in 1937
+------Created in 0 Added|updated 98 to cache in 0
+############## CHecked Exists for 14
+------Created in 0 Added|updated 98 to cache in 14
+############## CHecked Exists for 8
+------Created in 0 Added|updated 98 to cache in 9
+############## CHecked Exists for 1444
+------Created in 5 Added|updated 98 to cache in 1445
+############## CHecked Exists for 66
+------Created in 0 Added|updated 98 to cache in 67
+############## CHecked Exists for 55
+------Created in 0 Added|updated 98 to cache in 55
+############## CHecked Exists for 25
+------Created in 0 Added|updated 98 to cache in 25
+############## CHecked Exists for 203
+------Created in 1 Added|updated 98 to cache in 204
+############## CHecked Exists for 3660
+------Created in 7 Added|updated 98 to cache in 3663
+############## CHecked Exists for 1321
+------Created in 4 Added|updated 98 to cache in 1321
+------Created in 0 Added|updated 97 to cache in 0
+############## CHecked Exists for 18
+------Created in 0 Added|updated 97 to cache in 18
+############## CHecked Exists for 12
+------Created in 0 Added|updated 97 to cache in 13
+############## CHecked Exists for 1362
+------Created in 3 Added|updated 97 to cache in 1363
+############## CHecked Exists for 61
+------Created in 1 Added|updated 97 to cache in 61
+############## CHecked Exists for 78
+------Created in 1 Added|updated 97 to cache in 79
+############## CHecked Exists for 27
+------Created in 0 Added|updated 97 to cache in 27
+############## CHecked Exists for 371
+------Created in 1 Added|updated 97 to cache in 371
+############## CHecked Exists for 3315
+------Created in 5 Added|updated 97 to cache in 3318
+############## CHecked Exists for 1058
+------Created in 2 Added|updated 97 to cache in 1060
+------Created in 0 Added|updated 96 to cache in 0
+############## CHecked Exists for 11
+------Created in 0 Added|updated 96 to cache in 12
+############## CHecked Exists for 3
+------Created in 0 Added|updated 96 to cache in 4
+############## CHecked Exists for 817
+------Created in 2 Added|updated 96 to cache in 819
+############## CHecked Exists for 58
+------Created in 0 Added|updated 96 to cache in 59
+############## CHecked Exists for 79
+------Created in 0 Added|updated 96 to cache in 80
+############## CHecked Exists for 21
+------Created in 0 Added|updated 96 to cache in 21
+############## CHecked Exists for 199
+------Created in 1 Added|updated 96 to cache in 200
+############## CHecked Exists for 2101
+------Created in 5 Added|updated 96 to cache in 2103
+############## CHecked Exists for 764
+------Created in 2 Added|updated 96 to cache in 765
+------Created in 0 Added|updated 95 to cache in 0
+############## CHecked Exists for 10
+------Created in 0 Added|updated 95 to cache in 10
+############## CHecked Exists for 5
+------Created in 0 Added|updated 95 to cache in 6
+############## CHecked Exists for 615
+------Created in 2 Added|updated 95 to cache in 617
+############## CHecked Exists for 45
+------Created in 0 Added|updated 95 to cache in 46
+############## CHecked Exists for 68
+------Created in 0 Added|updated 95 to cache in 69
+############## CHecked Exists for 22
+------Created in 0 Added|updated 95 to cache in 23
+############## CHecked Exists for 211
+------Created in 1 Added|updated 95 to cache in 212
+############## CHecked Exists for 1760
+------Created in 4 Added|updated 95 to cache in 1762
+############## CHecked Exists for 544
+------Created in 2 Added|updated 95 to cache in 545
+------Created in 0 Added|updated 94 to cache in 0
+############## CHecked Exists for 11
+------Created in 0 Added|updated 94 to cache in 12
+############## CHecked Exists for 3
+------Created in 0 Added|updated 94 to cache in 4
+############## CHecked Exists for 587
+------Created in 4 Added|updated 94 to cache in 588
+############## CHecked Exists for 32
+------Created in 1 Added|updated 94 to cache in 32
+############## CHecked Exists for 65
+------Created in 1 Added|updated 94 to cache in 65
+############## CHecked Exists for 28
+------Created in 0 Added|updated 94 to cache in 29
+############## CHecked Exists for 154
+------Created in 1 Added|updated 94 to cache in 155
+############## CHecked Exists for 1175
+------Created in 4 Added|updated 94 to cache in 1177
+############## CHecked Exists for 469
+------Created in 1 Added|updated 94 to cache in 470
+############## CHecked Exists for 2979
+------Created in 8 Added|updated 94 to cache in 2982
+############## CHecked Exists for 25
+------Created in 0 Added|updated 94 to cache in 25
+############## CHecked Exists for 344
+------Created in 4 Added|updated 94 to cache in 345
+############## CHecked Exists for 4
+------Created in 0 Added|updated 94 to cache in 5
+############## CHecked Exists for 106
+------Created in 5 Added|updated 94 to cache in 106
+############## CHecked Exists for 3
+------Created in 1 Added|updated 94 to cache in 3
+############## CHecked Exists for 7
+------Created in 2 Added|updated 94 to cache in 8
+############## CHecked Exists for 1
+------Created in 0 Added|updated 94 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 94 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 94 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 94 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 94 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 94 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 94 to cache in 0
+Calculated  for : 94 in 6044
+############## CHecked Exists for 3902
+------Created in 13 Added|updated 95 to cache in 3904
+############## CHecked Exists for 54
+------Created in 1 Added|updated 95 to cache in 55
+############## CHecked Exists for 454
+------Created in 5 Added|updated 95 to cache in 454
+############## CHecked Exists for 0
+------Created in 1 Added|updated 95 to cache in 0
+############## CHecked Exists for 113
+------Created in 6 Added|updated 95 to cache in 113
+############## CHecked Exists for 3
+------Created in 1 Added|updated 95 to cache in 4
+############## CHecked Exists for 9
+------Created in 2 Added|updated 95 to cache in 10
+############## CHecked Exists for 0
+------Created in 0 Added|updated 95 to cache in 0
+############## CHecked Exists for 1
+------Created in 1 Added|updated 95 to cache in 1
+############## CHecked Exists for 1
+------Created in 0 Added|updated 95 to cache in 2
+############## CHecked Exists for 0
+------Created in 0 Added|updated 95 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 95 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 95 to cache in 0
+############## CHecked Exists for 0
+------Created in 2 Added|updated 95 to cache in 0
+Calculated  for : 95 in 7876
+############## CHecked Exists for 4639
+------Created in 10 Added|updated 96 to cache in 4641
+############## CHecked Exists for 56
+------Created in 1 Added|updated 96 to cache in 57
+############## CHecked Exists for 619
+------Created in 6 Added|updated 96 to cache in 620
+############## CHecked Exists for 7
+------Created in 0 Added|updated 96 to cache in 7
+############## CHecked Exists for 186
+------Created in 7 Added|updated 96 to cache in 187
+############## CHecked Exists for 4
+------Created in 0 Added|updated 96 to cache in 5
+############## CHecked Exists for 10
+------Created in 3 Added|updated 96 to cache in 10
+############## CHecked Exists for 1
+------Created in 0 Added|updated 96 to cache in 2
+############## CHecked Exists for 4
+------Created in 1 Added|updated 96 to cache in 4
+############## CHecked Exists for 1
+------Created in 0 Added|updated 96 to cache in 1
+############## CHecked Exists for 0
+------Created in 1 Added|updated 96 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 96 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 96 to cache in 0
+############## CHecked Exists for 0
+------Created in 1 Added|updated 96 to cache in 0
+Calculated  for : 96 in 9638
+############## CHecked Exists for 6591
+------Created in 11 Added|updated 97 to cache in 6594
+############## CHecked Exists for 74
+------Created in 1 Added|updated 97 to cache in 74
+############## CHecked Exists for 693
+------Created in 7 Added|updated 97 to cache in 694
+############## CHecked Exists for 4
+------Created in 0 Added|updated 97 to cache in 4
+############## CHecked Exists for 179
+------Created in 8 Added|updated 97 to cache in 179
+############## CHecked Exists for 8
+------Created in 1 Added|updated 97 to cache in 9
+############## CHecked Exists for 16
+------Created in 3 Added|updated 97 to cache in 17
+############## CHecked Exists for 0
+------Created in 0 Added|updated 97 to cache in 0
+############## CHecked Exists for 3
+------Created in 0 Added|updated 97 to cache in 4
+############## CHecked Exists for 0
+------Created in 0 Added|updated 97 to cache in 0
+############## CHecked Exists for 1
+------Created in 0 Added|updated 97 to cache in 1
+############## CHecked Exists for 1
+------Created in 1 Added|updated 97 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 97 to cache in 0
+############## CHecked Exists for 0
+------Created in 2 Added|updated 97 to cache in 0
+Calculated  for : 97 in 13934
+############## CHecked Exists for 7897
+------Created in 16 Added|updated 98 to cache in 7902
+############## CHecked Exists for 95
+------Created in 1 Added|updated 98 to cache in 96
+############## CHecked Exists for 796
+------Created in 8 Added|updated 98 to cache in 797
+############## CHecked Exists for 8
+------Created in 0 Added|updated 98 to cache in 8
+############## CHecked Exists for 232
+------Created in 9 Added|updated 98 to cache in 233
+############## CHecked Exists for 4
+------Created in 0 Added|updated 98 to cache in 5
+############## CHecked Exists for 15
+------Created in 4 Added|updated 98 to cache in 16
+############## CHecked Exists for 1
+------Created in 0 Added|updated 98 to cache in 1
+############## CHecked Exists for 2
+------Created in 1 Added|updated 98 to cache in 2
+############## CHecked Exists for 1
+------Created in 1 Added|updated 98 to cache in 1
+############## CHecked Exists for 2
+------Created in 1 Added|updated 98 to cache in 2
+############## CHecked Exists for 1
+------Created in 1 Added|updated 98 to cache in 1
+############## CHecked Exists for 0
+------Created in 0 Added|updated 98 to cache in 0
+############## CHecked Exists for 0
+------Created in 3 Added|updated 98 to cache in 0
+Calculated  for : 98 in 15929
+############## CHecked Exists for 11321
+------Created in 17 Added|updated 99 to cache in 11327
+############## CHecked Exists for 60
+------Created in 0 Added|updated 99 to cache in 61
+############## CHecked Exists for 1117
+------Created in 9 Added|updated 99 to cache in 1117
+############## CHecked Exists for 8
+------Created in 0 Added|updated 99 to cache in 9
+############## CHecked Exists for 293
+------Created in 14 Added|updated 99 to cache in 294
+############## CHecked Exists for 6
+------Created in 1 Added|updated 99 to cache in 6
+############## CHecked Exists for 11
+------Created in 4 Added|updated 99 to cache in 11
+############## CHecked Exists for 2
+------Created in 1 Added|updated 99 to cache in 2
+############## CHecked Exists for 4
+------Created in 1 Added|updated 99 to cache in 5
+############## CHecked Exists for 2
+------Created in 0 Added|updated 99 to cache in 3
+############## CHecked Exists for 1
+------Created in 0 Added|updated 99 to cache in 2
+############## CHecked Exists for 0
+------Created in 1 Added|updated 99 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 99 to cache in 0
+############## CHecked Exists for 1
+------Created in 3 Added|updated 99 to cache in 2
+Calculated  for : 99 in 23495
+############## CHecked Exists for 13835
+------Created in 19 Added|updated 100 to cache in 13842
+############## CHecked Exists for 161
+------Created in 1 Added|updated 100 to cache in 162
+############## CHecked Exists for 1366
+------Created in 10 Added|updated 100 to cache in 1367
+############## CHecked Exists for 10
+------Created in 0 Added|updated 100 to cache in 10
+############## CHecked Exists for 336
+------Created in 12 Added|updated 100 to cache in 336
+############## CHecked Exists for 17
+------Created in 1 Added|updated 100 to cache in 17
+############## CHecked Exists for 26
+------Created in 6 Added|updated 100 to cache in 27
+############## CHecked Exists for 1
+------Created in 0 Added|updated 100 to cache in 1
+############## CHecked Exists for 6
+------Created in 2 Added|updated 100 to cache in 7
+############## CHecked Exists for 1
+------Created in 0 Added|updated 100 to cache in 2
+############## CHecked Exists for 2
+------Created in 0 Added|updated 100 to cache in 2
+############## CHecked Exists for 0
+------Created in 2 Added|updated 100 to cache in 0
+############## CHecked Exists for 0
+------Created in 0 Added|updated 100 to cache in 0
+############## CHecked Exists for 0
+------Created in 3 Added|updated 100 to cache in 0
+Calculated  for : 100 in 27559

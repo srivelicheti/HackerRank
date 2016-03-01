@@ -94,9 +94,9 @@ namespace CoinChange
             return Coins.All(c => y.Coins.ContainsKey(c.Key) && y.Coins[c.Key] == c.Value);
         }
 
-        public int GetHashCode(CoinCollection obj)
+        public override int GetHashCode()
         {
-            return obj.GetHashCode();
+            return string.Join("_", Coins.Keys).GetHashCode();
         }
     }
 
@@ -113,7 +113,7 @@ namespace CoinChange
 
         public int GetHashCode(CoinCollection obj)
         {
-            return base.GetHashCode();
+            return string.Join("_", obj.Coins.Keys).GetHashCode();
         }
     }
 
@@ -153,6 +153,37 @@ namespace CoinChange
                     else
                     {
                         sw.Stop();
+                    }
+                }
+                Writer.WriteLine($"############## CHecked Exists for {sw.ElapsedMilliseconds}");
+            }
+            else
+            {
+                //var coll = new List<CoinCollection>();
+                //coll.Add(collection);
+                //dic[amount] = coll;
+                dic[amount] = collection;
+            }
+        }
+
+        public static void AddOrUpdate(this Dictionary<int, HashSet<CoinCollection>> dic, int amount, List<CoinCollection> collection)
+        {
+            if (dic.ContainsKey(amount))
+            {
+                var temp = dic[amount];
+                var sw = new Stopwatch();
+                foreach (var coinCollection in collection)
+                {
+                    sw.Start();
+                    
+                    if (!temp.Contains(coinCollection) )
+                    {
+                        sw.Stop();
+                        temp.Add(coinCollection);
+                    }
+                    else
+                    {
+                        temp.
                     }
                 }
                 Writer.WriteLine($"############## CHecked Exists for {sw.ElapsedMilliseconds}");
@@ -232,13 +263,15 @@ namespace CoinChange
                 {
                     var sw = Stopwatch.StartNew();
                     var total = 0;
-                    List<string> currentCoins = new List<string>();
+                    List<int> currentCoins = new List<int>();
                     foreach (var coin in _coins)
                     {
                         {
+                            if(currentCoins.Contains(coin))
+                                continue;
                             if (coin == amount)
                             {
-                                currentCoins.Add(coin.ToString());
+                                currentCoins.Add(coin);
                                 _collCache.AddOrUpdate(amount, new CoinCollection(amount, coin, 1));
                                 //total++;
                             }
@@ -246,15 +279,23 @@ namespace CoinChange
                             {
                                 //if ()
                                 {
+                                    
                                     var toFigure = amount - coin;
+                                   
                                     sw.Stop();
                                     var den = GetNumberOfDenominations(toFigure);
                                     sw.Start();
                                     if (den > 0)
                                     {
+                                        
                                         total = total + den;
                                         var perms = _collCache[toFigure];
                                         var el = sw.ElapsedMilliseconds;
+                                        //var toUse = new List<CoinCollection>();
+                                        //foreach (var p in perms)
+                                        //{
+                                        //    currentCoins.
+                                        //}
                                         var list = perms.Select(coll => new CoinCollection(amount, coin, 1, coll)).ToList();
                                         var t = sw.ElapsedMilliseconds - el;
                                         el = sw.ElapsedMilliseconds;
@@ -267,6 +308,8 @@ namespace CoinChange
                                         //    //Console.WriteLine($"Added|updated {amount} to cache in {(sw.ElapsedMilliseconds - el)}");
                                         //}
                                     }
+                                    currentCoins.Add(coin);
+                                    currentCoins.Add(toFigure);
                                 }
                             }
                         }
