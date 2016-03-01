@@ -30,30 +30,95 @@ namespace KinderGardenCandy
         static void Solve()
         {
             var noOfKids = Convert.ToInt32(reader.ReadLine());
-            var ranks = new int[noOfKids];
-            for (int i = 0; i < noOfKids; i++)
+            var ranks = new int[noOfKids+2];
+            ranks[0] = Int32.MaxValue;
+            ranks[noOfKids + 1] = Int32.MaxValue;
+            for (int i = 1; i <= noOfKids; i++)
             {
                 ranks[i] = Convert.ToInt32(reader.ReadLine());
             }
-            var candy = new int[noOfKids];
+            var candy = new int[noOfKids+2];
 
             int noOfKidsDetermined = 0;
-            if (ranks[0] <= ranks[1])
+            while (noOfKidsDetermined < noOfKids)
             {
-                candy[0] = 1;
-            }
-            if (ranks[noOfKids - 1] <= ranks[noOfKids - 2])
-                candy[noOfKids - 1] = 1;
-
-            for (int i = 0; i < noOfKids; i++)
-            {
-                if (candy[i] == 0)
+                for (int i = 1; i <= noOfKids; i++)
                 {
-
+                    if (candy[i] == 0)
+                    {
+                        //if (i == 0)
+                        //{
+                        //    if (ranks[0] < ranks[1])
+                        //    {
+                        //        candy[0] = 1;
+                        //        noOfKidsDetermined++;
+                        //    }
+                        //    else if (candy[1] != 0)
+                        //    {
+                        //        if (ranks[0] == ranks[1])
+                        //            candy[0] = 1;
+                        //        else
+                        //            candy[0] = candy[1] + 1;
+                        //        noOfKidsDetermined++;
+                        //    }
+                        //}
+                        //else if (i == noOfKids - 1)
+                        //{
+                        //    if (ranks[noOfKids - 1] < ranks[noOfKids - 2])
+                        //    {
+                        //        candy[noOfKids - 1] = 1;
+                        //        noOfKidsDetermined++;
+                        //    }
+                        //    else if (candy[noOfKids - 2] != 0)
+                        //    {
+                        //        if (ranks[noOfKids - 1] == ranks[noOfKids - 2])
+                        //            candy[noOfKids - 1] = 1;
+                        //        else
+                        //            candy[noOfKids - 1] = candy[noOfKids - 2] + 1;
+                        //        noOfKidsDetermined++;
+                        //    }
+                        //}
+                        //else
+                        {
+                            if (ranks[i] < ranks[i - 1] && ranks[i] < ranks[i + 1])
+                            {
+                                candy[i] = 1;
+                                noOfKidsDetermined++;
+                            }
+                            else if (candy[i - 1] != 0 && candy[i + 1] != 0)
+                            {
+                                int c = 1;
+                                if (ranks[i] > ranks[i - 1])
+                                    c = candy[i - 1] + 1;
+                                if (ranks[i] > ranks[i + 1] && c <= candy[i + 1])
+                                {
+                                    c = candy[i + 1] + 1;
+                                }
+                                candy[i] = c;
+                                noOfKidsDetermined++;
+                            }
+                            else if (candy[i - 1] != 0 && ranks[i] <= ranks[i + 1])
+                            {
+                                int c = 1;
+                                if (ranks[i] > ranks[i - 1])
+                                    c = candy[i - 1] + 1;
+                                candy[i] = c;
+                                noOfKidsDetermined++;
+                            }
+                            else if (candy[i + 1] != 0 && ranks[i] <= ranks[i - 1])
+                            {
+                                int c = 1;
+                                if (ranks[i] > ranks[i + 1])
+                                    c = candy[i + 1] + 1;
+                                candy[i] = c;
+                                noOfKidsDetermined++;
+                            }
+                        }
+                    }
                 }
             }
-            
-            
+
+
 #if DEBUG
             writer.WriteLine(string.Join(" ", ranks));
             writer.WriteLine(string.Join(" ", candy));
@@ -67,7 +132,7 @@ namespace KinderGardenCandy
 
         static void SolveSubProb(int startPos, int endPos, int[] ranks, int[] cand)
         {
-            
+
         }
     }
 }
