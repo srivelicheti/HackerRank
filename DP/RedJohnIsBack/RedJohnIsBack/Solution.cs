@@ -60,7 +60,10 @@ namespace RedJohnIsBack
             else if (n == 0)
                 return 1;
             if (_cache.ContainsKey(n))
+            {
+                writer.WriteLine("Reading from cache for " + n);
                 return _cache[n];
+            }
             int tempConfigs = 0;
             var horizontalConfigs = GetConfigs(n - 4);
             var verticalConfigs = GetConfigs(n - 1);
