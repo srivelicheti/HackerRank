@@ -33,10 +33,12 @@ namespace PrimsMST
             var lens = reader.ReadLine().Split(' ').Select(x=> Convert.ToInt32(x)).ToArray();
             var nodes = lens[0];
             var edges = lens[1];
-            var al = new List<Dictionary<int, int>>(nodes);
+            Dictionary<int, int>[] al = new Dictionary<int, int>[nodes];
+
+            //var al2 = new Dictionary<int, int>[nodes];
             for (int i = 0; i < nodes; i++)
             {
-                al.Add(new Dictionary<int, int>());
+                al[i] =  new Dictionary<int, int>();
             }
             for (int i = 0; i < edges; i++)
             {
@@ -68,14 +70,15 @@ namespace PrimsMST
 
             var start = Convert.ToInt32(reader.ReadLine()) - 1 ;
 
-            Dictionary<int, int> consumedEdges = new Dictionary<int, int>();
-            consumedEdges.Add(start, 0);
+            //Dictionary<int, int> consumedEdges = new Dictionary<int, int>();
+            HashSet<int> consumedEdges = new HashSet<int>();
+            consumedEdges.Add(start);
             var nextEdge = GetNextEdgeToConsume(al, consumedEdges);
             int totalWeight = 0;
             while (nextEdge != null)
             {
-                totalWeight = totalWeight + nextEdge.Item3;
-                consumedEdges.Add(nextEdge.Item2, nextEdge.Item3);
+                totalWeight = totalWeight + nextEdge.Item2;
+                consumedEdges.Add(nextEdge.Item1);
                 nextEdge = GetNextEdgeToConsume(al, consumedEdges);
             }
             writer.WriteLine(totalWeight);
@@ -86,28 +89,27 @@ namespace PrimsMST
 #endif
         }
 
-        static Tuple<int,int,int> GetNextEdgeToConsume(List<Dictionary<int, int>> nodes, Dictionary<int,int> consumedEdges)
+        static Tuple<int,int> GetNextEdgeToConsume(Dictionary<int, int>[] graph, HashSet<int> consumedNodes)
         {
             var toAddWeight = int.MaxValue;
-            Int32 toAddStart = -1;
-            Int32 toAddEnd = -1;
-            foreach (var key in consumedEdges.Keys)
+            //  Int32 toAddStart = -1;
+            int toAddEnd = -1;
+            foreach (var node in consumedNodes)
             {
-                var d = nodes[key];
-                foreach (var kvp in d.Where(x => !consumedEdges.ContainsKey(x.Key)))
+                var nodeEdges = graph[node];
+                foreach (var kvp in nodeEdges.Where(x => !consumedNodes.Contains(x.Key)))
                 {
                     if (kvp.Value < toAddWeight)
                     {
                         toAddWeight = kvp.Value;
-                        toAddStart = key;
                         toAddEnd = kvp.Key;
                     }
                 }
             }
-            if (toAddStart == -1)
+            if (toAddEnd == -1)
                 return null;
             else
-                return new Tuple<int, int, int>(toAddStart, toAddEnd, toAddWeight);
+                return new Tuple<int, int>(toAddEnd, toAddWeight);
         }
     }
 }
