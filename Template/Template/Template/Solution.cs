@@ -20,7 +20,7 @@ namespace Template
             // writer = new StreamWriter("..\\..\\output.txt");
 #else
             reader = Console.In;
-            writer = new StreamWriter(Console.OpenStandardOutput());
+            writer = Console.out; // new StreamWriter(Console.OpenStandardOutput());
 #endif
             Solve();
 #if DEBUG
