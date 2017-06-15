@@ -66,12 +66,12 @@ namespace PasswordCracker
         {
             if (j < i || i < 0 || j < 0)
                 return new List<string>();
-            //if (cache.ContainsKey($"{i}_{j}"))
-            //    return cache[$"{i}_{j}"];
+            if (cache.ContainsKey($"{i}_{j}"))
+                return cache[$"{i}_{j}"];
             if (dict.Contains(word.Substring(i, j - i +1)))
             {
                 var l = new List<string> { word.Substring(i, j - i +1) };
-                //cache.Add($"{i}_{j}", l);
+                cache.Add($"{i}_{j}", l);
                 return l;
             }
 
@@ -94,7 +94,7 @@ namespace PasswordCracker
                 }
                 start--;
             }
-
+            cache.Add($"{i}_{j}",res);
             return res;
 
         }
