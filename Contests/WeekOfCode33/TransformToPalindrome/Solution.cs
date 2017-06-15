@@ -7,6 +7,60 @@ using System.Threading.Tasks;
 
 namespace TransformToPalindrome
 {
+
+    class UnionFind
+    {
+        private int _count;
+        private int[] _parent;
+        private int[] _size;
+        
+        public UnionFind(int n)
+        {
+            _parent = new int[n+1];
+            _size = new int[n + 1];
+            _count = n+1;
+            for (int i = 0; i < n + 1; i++)
+            {
+                _parent[i] = i;
+                _size[i] = 0;
+            }
+        }
+
+        public int find(int p)
+        {
+
+            while (p != _parent[p])
+            {
+                _parent[p] = _parent[_parent[p]];
+                p = _parent[p];
+            }
+
+            return p;
+        }
+
+        public bool connected(int p, int q)
+        {
+            return find(p) == find(q);
+        }
+
+        public void union(int p, int q)
+        {
+            int rootP = find(p);
+            int rootQ = find(q);
+
+            if (_size[rootP] < _size[rootQ])
+                _parent[rootP] = rootQ;
+            else if (_size[rootP] > _size[rootQ])
+                _parent[rootQ] = rootP;
+            else
+            {
+                _parent[rootQ] = rootP;
+                _size[rootP]++;
+            }
+            _count--;
+        }
+    }
+
     class Solution
     {
         protected static TextReader reader;
@@ -29,6 +83,8 @@ namespace TransformToPalindrome
 #endif
         }
 
+        
+
         static void Solve()
         {
             
@@ -37,25 +93,36 @@ namespace TransformToPalindrome
             int k = temp[1];
             int m = temp[2];
 
-            var equalNoCache = new HashSet<int>[n+1];
+            var g = new HashSet<int>[n+1];
 
-            var g = new List<int>[n+1];
+            //var g = new List<int>[n+1];
 
+            //while (k-- > 0)
+            //{
+            //    var temp2 = reader.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
+            //    int e1 = temp2[0];
+            //    int e2 = temp2[1];
+
+            //    if(g[e1] == null)
+            //        g[e1] = new List<int>();
+            //    if(g[e2] == null)
+            //        g[e2] = new List<int>();
+
+            //    g[e1].Add(e2);
+            //    g[e2].Add(e1);
+
+            //}
+            var uf = new UnionFind(n);
             while (k-- > 0)
             {
                 var temp2 = reader.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
                 int e1 = temp2[0];
                 int e2 = temp2[1];
 
-                if(g[e1] == null)
-                    g[e1] = new List<int>();
-                if(g[e2] == null)
-                    g[e2] = new List<int>();
-
-                g[e1].Add(e2);
-                g[e2].Add(e1);
+                uf.union(e1,e2);
 
             }
+
             var s = reader.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
             var mem = new int[m, m];
             int maxLen = 1;
@@ -68,7 +135,7 @@ namespace TransformToPalindrome
                             mem[i, j] = 1;
                         else
                         {
-                            if (AreEqualDfs(s[i], s[j], g, n))
+                            if (AreEqualUF(s[i], s[j], uf, n))
                             {
                                 mem[i, j] = mem[i + 1, j - 1] + 2;
                             }
@@ -163,6 +230,15 @@ namespace TransformToPalindrome
             }
 
             return false;
+        }
+
+
+        static bool AreEqualUF(int i1, int i2, UnionFind g, int n)
+        {
+            if (i1 == i2)
+                return true;
+
+            return g.connected(i1, i2);
         }
     }
 
