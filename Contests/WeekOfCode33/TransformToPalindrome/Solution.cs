@@ -93,25 +93,7 @@ namespace TransformToPalindrome
             int k = temp[1];
             int m = temp[2];
 
-            var g = new HashSet<int>[n+1];
-
-            //var g = new List<int>[n+1];
-
-            //while (k-- > 0)
-            //{
-            //    var temp2 = reader.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
-            //    int e1 = temp2[0];
-            //    int e2 = temp2[1];
-
-            //    if(g[e1] == null)
-            //        g[e1] = new List<int>();
-            //    if(g[e2] == null)
-            //        g[e2] = new List<int>();
-
-            //    g[e1].Add(e2);
-            //    g[e2].Add(e1);
-
-            //}
+            
             var uf = new UnionFind(n);
             while (k-- > 0)
             {
