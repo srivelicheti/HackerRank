@@ -5,11 +5,14 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 class Numbers
 {
-private:
+
+
+public:
 	int privateZero = 0;
 	int privateOne = 0;
 	int privateTwo = 0;
@@ -20,7 +23,7 @@ private:
 	int privateEight = 0;
 	int privateNine = 0;
 
-public:
+
 	 Numbers();
 
 	 Numbers(int n);
@@ -390,15 +393,7 @@ public:
 		return  new  Numbers(getZero(), getOne(), getTwo(), getThree(), getFour(), getFive(), getSix(), getSeven(), getEight(), getNine() + 1);
 	}
 
-	Numbers* Numbers::operator + (const Numbers &n2)
-	{
-		return  new Numbers(this->getZero() + n2.getZero(), this->getOne() + n2.getOne(), this->getTwo() + n2.getTwo(), this->getThree() + n2.getThree(), this->getFour() + n2.getFour(), this->getFive() + n2.getFive(), this->getSix() + n2.getSix(), this->getSeven() + n2.getSeven(), this->getEight() + n2.getEight(), this->getNine() + n2.getNine());
-	}
 
-	Numbers* Numbers::operator - (const Numbers &n2)
-	{
-		return  new Numbers(this->getZero() - n2.getZero(), std::abs(this->getOne() - n2.getOne()), std::abs(this->getTwo() - n2.getTwo()), std::abs(this->getThree() - n2.getThree()), std::abs(this->getFour() - n2.getFour()), std::abs(this->getFive() - n2.getFive()), std::abs(this->getSix() - n2.getSix()), std::abs(this->getSeven() - n2.getSeven()), std::abs(this->getEight() - n2.getEight()), std::abs(this->getNine() - n2.getNine()));
-	}
 
 	int Numbers::PalinMaxLen()
 	{
@@ -505,7 +500,7 @@ public:
 		}
 		palinLen += getZero();
 
-		if (palinLen == getZero() || palinLen == (getZero() - 1))
+		if (palinLen == getZero() || palinLen == (getZero() + 1))
 		{
 			return -1;
 		}
@@ -517,16 +512,16 @@ public:
 
 Numbers* AddSub(Numbers* n1 ,Numbers* n2, Numbers* n3)
 {
-	auto z = n1->getZero() + n2->getZero() - n3->getZero();
-	auto o = n1->getOne() + n2->getOne() - n3->getOne();
-	auto t= n1->getTwo() + n2 ->getTwo() - n3->getTwo();
-	auto th= n1->getThree() + n2 ->getThree() - n3->getThree();
-	auto f= n1->getFour() + n2 ->getFour() - n3->getFour();
-	auto fi= n1->getFive() + n2 ->getFive() - n3->getFive();
-	auto s= n1->getSix() + n2 ->getSix() - n3->getSix();
-	auto se= n1->getSeven() + n2 ->getSeven() - n3->getSeven();
-	auto e= n1->getEight() + n2 ->getEight() - n3->getEight();
-	auto nin= n1->getNine() + n2 ->getNine() - n3->getNine();
+	auto z = ( n1->getZero() + n2->getZero() - n3->getZero());
+	auto o = (n1->getOne() + n2->getOne() - n3->getOne());
+	auto t= (n1->getTwo() + n2 ->getTwo() - n3->getTwo());
+	auto th= (n1->getThree() + n2 ->getThree() - n3->getThree());
+	auto f= (n1->getFour() + n2 ->getFour() - n3->getFour());
+	auto fi= (n1->getFive() + n2 ->getFive() - n3->getFive());
+	auto s= (n1->getSix() + n2 ->getSix() - n3->getSix());
+	auto se= (n1->getSeven() + n2 ->getSeven() - n3->getSeven());
+	auto e= (n1->getEight() + n2 ->getEight() - n3->getEight());
+	auto nin= (n1->getNine() + n2 ->getNine() - n3->getNine());
 	
 	return new Numbers(z, o, t, th, f, fi, s, se, e, nin);
 
@@ -534,16 +529,33 @@ Numbers* AddSub(Numbers* n1 ,Numbers* n2, Numbers* n3)
 
 Numbers* Sub(Numbers* n2, Numbers* n3)
 {
-	auto z = n2->getZero() - n3->getZero();
-	auto o =  n2->getOne() - n3->getOne();
-	auto t =  n2->getTwo() - n3->getTwo();
-	auto th = n2->getThree() - n3->getThree();
-	auto f =  n2->getFour() - n3->getFour();
-	auto fi = n2->getFive() - n3->getFive();
-	auto s =  n2->getSix() - n3->getSix();
-	auto se =  n2->getSeven() - n3->getSeven();
-	auto e =  n2->getEight() - n3->getEight();
-	auto nin = n2->getNine() - n3->getNine();
+	auto z = (n2->getZero() - n3->getZero());
+	auto o = (n2->getOne() - n3->getOne());
+	auto t = (n2->getTwo() - n3->getTwo());
+	auto th = (n2->getThree() - n3->getThree());
+	auto f = (n2->getFour() - n3->getFour());
+	auto fi = (n2->getFive() - n3->getFive());
+	auto s = (n2->getSix() - n3->getSix());
+	auto se = (n2->getSeven() - n3->getSeven());
+	auto e = (n2->getEight() - n3->getEight());
+	auto nin = (n2->getNine() - n3->getNine());
+
+	return new Numbers(z, o, t, th, f, fi, s, se, e, nin);
+
+}
+
+Numbers* Add(Numbers* n2, Numbers* n3)
+{
+	auto z = (n2->getZero() + n3->getZero());
+	auto o = (n2->getOne() + n3->getOne());
+	auto t = (n2->getTwo() + n3->getTwo());
+	auto th = (n2->getThree() + n3->getThree());
+	auto f = (n2->getFour() + n3->getFour());
+	auto fi = (n2->getFive() + n3->getFive());
+	auto s = (n2->getSix() + n3->getSix());
+	auto se = (n2->getSeven() + n3->getSeven());
+	auto e = (n2->getEight() + n3->getEight());
+	auto nin = (n2->getNine() + n3->getNine());
 
 	return new Numbers(z, o, t, th, f, fi, s, se, e, nin);
 
@@ -571,6 +583,8 @@ int CalcMaxLen(Numbers ***numCache, int si, int sj, int ei, int ej)
 	{
 		total = Sub((total) , (numCache[toDeli][ ej]));
 	}
+	if (toDelj >= 0 && toDeli >= 0)
+		total = Add(total, numCache[si - 1][ sj - 1]);
 
 	return total->PalinMaxLen();
 }
@@ -604,7 +618,7 @@ int main()
 		for (int j = 0; j < n; j++)
 		{
 			cin >> inp[i][j];
-			numCache[i][ j] = new Numbers();
+			//numCache[i][ j] = new Numbers();
 		}
 	}
 	
@@ -644,8 +658,12 @@ int main()
 			{
 				for (int sj = 0; sj <= ej; sj++)
 				{
-					if (calcArea(si, sj, ei, ej) < maxLen)
+					if (calcArea(si, sj, ei, ej) < maxLen){
+						/*si = ei + 1;
+						sj = ej + 1;*/
+
 						continue;
+					}
 					int cMaxLen = CalcMaxLen(numCache, si, sj, ei, ej);
 					if (cMaxLen > maxLen)
 					{
