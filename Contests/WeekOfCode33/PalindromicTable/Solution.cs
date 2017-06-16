@@ -46,25 +46,25 @@ namespace PalindromicTable
                 inp[i] = reader.ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
             }
 
-            var numCache = new Numbers[m,n];
+            var numCache = new Numbers[m, n];
 
-            numCache[0,0] = new Numbers(inp[0][0]);
+            numCache[0, 0] = new Numbers(inp[0][0]);
 
             for (int j = 1; j < n; j++)
                 numCache[0, j] = numCache[0, j - 1].Add(inp[0][j]);
 
             for (int i = 1; i < m; i++)
-                numCache[i,0] = numCache[i - 1,0].Add(inp[i][0]);
+                numCache[i, 0] = numCache[i - 1, 0].Add(inp[i][0]);
 
             for (int i = 1; i < m; i++)
             {
                 for (int j = 1; j < n; j++)
                 {
-                    numCache[i, j] = ((numCache[i, j - 1] + numCache[i - 1, j]) - numCache[i-1,j-1]) .Add(inp[i][j]);
+                    numCache[i, j] = ((numCache[i, j - 1] + numCache[i - 1, j]) - numCache[i - 1, j - 1]).Add(inp[i][j]);
                 }
             }
             int maxLen = 0;
-            int msi = -1, msj = -1, mei =-1, mej = -1;
+            int msi = -1, msj = -1, mei = -1, mej = -1;
 
             for (int ei = 0; ei < m; ei++)
             {
@@ -72,8 +72,12 @@ namespace PalindromicTable
                 {
                     for (int si = 0; si <= ei; si++)
                     {
+                        if (area(si, 0, ei, ej) < maxLen)
+                            continue;
                         for (int sj = 0; sj <= ej; sj++)
                         {
+                            if (area(si, sj, ei, ej) < maxLen)
+                                continue;
                             int cMaxLen = CalcMaxLen(numCache, si, sj, ei, ej);
                             if (cMaxLen > maxLen)
                             {
@@ -95,6 +99,11 @@ namespace PalindromicTable
 #if DEBUG
             writer.Close();
 #endif
+        }
+
+        private static int area(int si, int sj, int ei, int ej)
+        {
+            return ((ei - si) + 1) * (ej - sj + 1);
         }
 
         private static int CalcMaxLen(Numbers[,] numCache, int si, int sj, int ei, int ej)
@@ -130,38 +139,38 @@ namespace PalindromicTable
             if (n == 1)
                 One = 1;
 
-            if(n == 2)
-              Two  = 1;
+            if (n == 2)
+                Two = 1;
 
 
-            if (n == 3 )
-               Three = 1;
+            if (n == 3)
+                Three = 1;
 
 
-            if (n == 4 )
-                Four= 1;
+            if (n == 4)
+                Four = 1;
 
 
-            if (n ==5 )
-                Five= 1;
+            if (n == 5)
+                Five = 1;
 
 
-            if (n ==6 )
-                Six= 1;
+            if (n == 6)
+                Six = 1;
 
 
-            if (n ==  7)
+            if (n == 7)
                 Seven = 1;
 
 
-            if (n ==8 )
+            if (n == 8)
                 Eight = 1;
 
 
             if (n == 9)
-               Nine = 1;
+                Nine = 1;
         }
-        public Numbers(int z, int o, int t, int thr,int f, int fiv, int s, int seve, int ei, int ni)
+        public Numbers(int z, int o, int t, int thr, int f, int fiv, int s, int seve, int ei, int ni)
         {
             Zero = z;
             One = o;
@@ -189,7 +198,7 @@ namespace PalindromicTable
         public Numbers Add(int n)
         {
             if (n == 0)
-               return AddZero();
+                return AddZero();
 
             else if (n == 1)
                 return AddONe();
@@ -230,35 +239,35 @@ namespace PalindromicTable
 
         public Numbers AddZero()
         {
-            return  new Numbers(Zero+1,One,Two,Three,Four,Five,Six,Seven,Eight,Nine);
+            return new Numbers(Zero + 1, One, Two, Three, Four, Five, Six, Seven, Eight, Nine);
         }
 
         public Numbers AddONe()
         {
-            return new Numbers(Zero , One + 1, Two, Three, Four, Five, Six, Seven, Eight, Nine);
+            return new Numbers(Zero, One + 1, Two, Three, Four, Five, Six, Seven, Eight, Nine);
         }
 
         public Numbers AddTwo()
         {
-            return new Numbers(Zero, One, Two +1, Three, Four, Five, Six, Seven, Eight, Nine);
+            return new Numbers(Zero, One, Two + 1, Three, Four, Five, Six, Seven, Eight, Nine);
         }
 
         public Numbers AddThree()
         {
-            return new Numbers(Zero , One, Two, Three + 1, Four, Five, Six, Seven, Eight, Nine);
+            return new Numbers(Zero, One, Two, Three + 1, Four, Five, Six, Seven, Eight, Nine);
         }
 
         public Numbers AddFour()
         {
-            return new Numbers(Zero , One, Two, Three, Four + 1, Five, Six, Seven, Eight, Nine);
+            return new Numbers(Zero, One, Two, Three, Four + 1, Five, Six, Seven, Eight, Nine);
         }
         public Numbers AddFive()
         {
-            return new Numbers(Zero , One, Two, Three, Four, Five + 1, Six, Seven, Eight, Nine);
+            return new Numbers(Zero, One, Two, Three, Four, Five + 1, Six, Seven, Eight, Nine);
         }
         public Numbers AddSix()
         {
-            return new Numbers(Zero , One, Two, Three, Four, Five, Six + 1, Seven, Eight, Nine);
+            return new Numbers(Zero, One, Two, Three, Four, Five, Six + 1, Seven, Eight, Nine);
         }
         public Numbers AddSeven()
         {
@@ -266,7 +275,7 @@ namespace PalindromicTable
         }
         public Numbers AddEight()
         {
-            return new Numbers(Zero , One, Two, Three, Four, Five, Six, Seven, Eight + 1, Nine);
+            return new Numbers(Zero, One, Two, Three, Four, Five, Six, Seven, Eight + 1, Nine);
         }
         public Numbers AddNine()
         {
@@ -275,10 +284,10 @@ namespace PalindromicTable
 
         public static Numbers operator +(Numbers n1, Numbers n2)
         {
-            return new Numbers(n1.Zero + n2.Zero, 
+            return new Numbers(n1.Zero + n2.Zero,
                 n1.One + n2.One,
                 n1.Two + n2.Two,
-                n1.Three+ n2.Three,
+                n1.Three + n2.Three,
                 n1.Four + n2.Four,
                 n1.Five + n2.Five,
                 n1.Six + n2.Six,
@@ -306,7 +315,7 @@ namespace PalindromicTable
             int palinLen = 0;
             bool oddFound = false;
 
-            if (One%2 == 1)
+            if (One % 2 == 1)
             {
                 if (oddFound)
                     return -1;
