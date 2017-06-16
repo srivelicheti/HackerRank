@@ -66,9 +66,9 @@ namespace PalindromicTable
             int maxLen = 0;
             int msi = -1, msj = -1, mei = -1, mej = -1;
 
-            for (int ei = 0; ei < m; ei++)
+            for (int ei = m-1; ei >= 0; ei--)
             {
-                for (int ej = 0; ej < n; ej++)
+                for (int ej = n -1; ej >= 0; ej--)
                 {
                     for (int si = 0; si <= ei; si++)
                     {

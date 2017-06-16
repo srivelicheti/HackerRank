@@ -21,6 +21,80 @@ private:
 	int privateNine = 0;
 
 public:
+	 Numbers();
+
+	 Numbers(int n);
+
+	 Numbers(int z, int o, int t, int thr, int f, int fiv, int s, int seve, int ei, int ni);
+
+	int  getZero() const;
+
+	void  setZero(const int &value);
+
+	int  getOne() const;
+
+	void  setOne(const int &value);
+
+	int  getTwo() const;
+
+	void  setTwo(const int &value);
+
+	int  getThree() const;
+
+	void  setThree(const int &value);
+
+	int  getFour() const;
+
+	void  setFour(const int &value);
+	int  getFive() const;
+
+	void  setFive(const int &value);
+
+	int  getSix() const;
+
+	void  setSix(const int &value);
+
+	int  getSeven() const;
+
+	void  setSeven(const int &value);
+
+	int  getEight() const;
+
+	void  setEight(const int &value);
+
+	int  getNine() const;
+
+	void  setNine(const int &value);
+
+	Numbers*  Add(int n);
+
+	Numbers*  AddZero();
+
+	Numbers*  AddONe();
+
+	Numbers*  AddTwo();
+
+	Numbers*  AddThree();
+
+	Numbers*  AddFour();
+
+	Numbers*  AddFive();
+
+	Numbers*  AddSix();
+	Numbers*  AddSeven();
+	Numbers*  AddEight();
+
+	Numbers*  AddNine();
+
+	Numbers*  operator + (const Numbers &n2);
+
+	Numbers*  operator - (const Numbers &n2);
+
+	int  PalinMaxLen();
+
+};
+
+
 	Numbers::Numbers()
 	{
 	}
@@ -440,7 +514,6 @@ public:
 	}
 
 	
-};
 
 Numbers* AddSub(Numbers* n1 ,Numbers* n2, Numbers* n3)
 {
@@ -555,15 +628,15 @@ int main()
 		for (int j = 1; j < n; j++)
 		{
 			numCache[i][ j] = AddSub(numCache[i][ j - 1], numCache[i - 1][ j], numCache[i - 1][ j - 1])->Add(inp[i][ j]);
-			//numCache[i,j] = &((*(numCache[i,j - 1]) + *(numCache[i - 1,j])) - *((numCache[i - 1,j - 1])->Add(inp[i,j])));
+			
 		}
 	}
 	int maxLen = 0;
 	int msi = -1, msj = -1, mei = -1, mej = -1;
 
-	for (int ei = 0; ei < m; ei++)
+	for (int ei = m -1; ei >= 0; ei--)
 	{
-		for (int ej = 0; ej < n; ej++)
+		for (int ej = n -1; ej >= 0; ej--)
 		{
 			if (calcArea(0, 0, ei, ej) < maxLen)
 				continue;
