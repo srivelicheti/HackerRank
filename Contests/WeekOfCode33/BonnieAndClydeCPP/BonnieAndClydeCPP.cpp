@@ -5,26 +5,24 @@
 // BonnieAndClydeCPP.cpp : Defines the entry point for the console application.
 //
 
-
 #include <fstream>
 #include <iostream>
 #include <vector>
 #include <unordered_set>
 #include <unordered_map>
-#include <cstring>
 
 using namespace std;
 
-int FindPath(int s, int d, vector<vector<int>*>& graph, unordered_set<int>* path, vector<bool>& visited)
+int FindPath(int s, int d, vector<vector<int>>& graph, unordered_set<int>* path, vector<bool>& visited)
 {
 	if (s == d) {
 		path->insert(s);
 		return s;
 	}
 
-	if (graph[s] != nullptr)
+	//if (graph[s] != nullptr)
 	{
-		for (auto i : *graph[s])
+		for (auto i : graph[s])
 		{
 			if (!visited[i])
 			{
@@ -41,7 +39,14 @@ int FindPath(int s, int d, vector<vector<int>*>& graph, unordered_set<int>* path
 	return -1;
 }
 
-int FindOtherPath(int s, int d, vector<vector<int>*>& graph, unordered_set<int>* path, vector<bool>& visited, unordered_set<int>* existingPath)
+int FindPath2(int s, int d, vector<vector<int>>& graph, unordered_set<int>* path, int n, int u, int v, int w)
+{
+	vector<bool> visited(n + 1);
+	visited[s] = true;
+	return FindPath(s, d, graph, path, visited);
+}
+
+int FindOtherPath(int s, int d, vector<vector<int>>& graph, unordered_set<int>* path, vector<bool>& visited, unordered_set<int>* existingPath)
 {
 	if (existingPath->find(s) != existingPath->end())
 		return -1;
@@ -51,15 +56,15 @@ int FindOtherPath(int s, int d, vector<vector<int>*>& graph, unordered_set<int>*
 		return s;
 	}
 
-	if (graph[s] != nullptr)
+	//if (graph[s] != nullptr)
 	{
-		for (auto i : *graph[s])
+		for (auto i : graph[s])
 		{
 			if (!visited[i])
 			{
 				visited[i] = true;
 				if (existingPath->find(i) == existingPath->end()) {
-					auto found = FindPath(i, d, graph, path, visited);
+					auto found = FindOtherPath(i, d, graph, path, visited, existingPath);
 					if (found >= 0)
 					{
 						path->insert(s);
@@ -70,6 +75,13 @@ int FindOtherPath(int s, int d, vector<vector<int>*>& graph, unordered_set<int>*
 		}
 	}
 	return -1;
+}
+
+int FindOtherPath2(int s, int d, vector<vector<int>>& graph, unordered_set<int>* path, unordered_set<int>* existingPath, int n)
+{
+	vector<bool> visited(n+1);
+	visited[s] = true;
+	return FindOtherPath(s, d, graph, path, visited, existingPath);
 }
 
 bool AreDisoint(unordered_set<int> s1, unordered_set<int> s2)
@@ -85,7 +97,8 @@ bool AreDisoint(unordered_set<int> s1, unordered_set<int> s2)
 	return true;
 }
 
-void SolveOne(vector<vector<int>*>& graph, int n)
+
+void SolveOne(vector<vector<int>>& graph, int n)
 {
 	int u, v, w;
 	cin >> u >> v >> w;
@@ -93,83 +106,81 @@ void SolveOne(vector<vector<int>*>& graph, int n)
 	unordered_map<int, vector<unordered_set<int>>> uPaths;
 	unordered_map<int, vector<unordered_set<int>>> vPaths;
 
-	vector<bool> visited(n + 1);
-	fill(visited.begin(), visited.end(), false);
+//	vector<bool> visited(n + 1);
+	//fill(visited.begin(), visited.end(), false);
 
-	if ((u != w && v != w) && (graph[w] == nullptr || graph[w]->size() == 1))
+	if ((u != w && v != w) && (graph[w].size() == 1))
 	{
 		cout << "NO" << endl;
 		return;
 	}
-
-	if (u != w) {
-		for (auto src : *graph[w])
-		{
-			if (src == v)
-				continue;
-
-			unordered_set<int> path;
-			visited[src] = true;
-			//visited[w] = true;
-			auto p1 = FindPath(src, u, graph, &path, visited);
-			if (p1 >= 0)
-			{
-				vector<unordered_set<int>> ins;
-				ins.push_back(path);
-				uPaths.insert({ src,ins });
-
-				unordered_set<int> path2;
-				fill(visited.begin(), visited.end(), false);
-				visited[src] = true;
-				//visited[w] = true;
-				auto p2 = FindOtherPath(src, u, graph, &path2, visited, &path);
-				if (p2 >= 0)
-					uPaths.find(src)->second.push_back(path2);
-			}
-
-		}
+	if (u == w && v == w) {
+		cout << "YES" << endl;
+		return;
 	}
-	if (v != w) {
-		for (auto src : *graph[w])
+
+	vector<int> towPathsFoundU;
+	vector<int> twoPathsFoundV;
+
+	{
+		for (auto src : graph[w])
 		{
-			if (src == u)
-				continue;
-			fill(visited.begin(), visited.end(), false);
-			unordered_set<int> path;
-			visited[src] = true;
-			//visited[w] = true;
-			auto p1 = FindPath(src, v, graph, &path, visited);
-			if (p1 >= 0)
+			if (src != v && u != w)
 			{
-				vector<unordered_set<int>> ins;
-				ins.push_back(path);
-				vPaths.insert({ src, ins });
 
-				unordered_set<int> path2;
-				fill(visited.begin(), visited.end(), false);
-				visited[src] = true;
+				unordered_set<int> path;
+				//visited[src] = true;
 				//visited[w] = true;
-				auto p2 = FindOtherPath(src, v, graph, &path2, visited, &path);
-				if (p2 >= 0) {
-					vPaths.find(src)->second.push_back(path2);
-					for (auto u_path : uPaths)
-					{
-						if (u_path.first != src)
+				auto p1 = FindPath2(src, u, graph, &path, n, u ,v, w);
+				if (p1 >= 0)
+				{
+					vector<unordered_set<int>> ins;
+					ins.push_back(path);
+					uPaths.insert({ src,ins });
+
+					unordered_set<int> path2;
+					int p2 = FindOtherPath2(src, u, graph, &path2, &path, n);
+					if (p2 >= 0) {
+						towPathsFoundU.push_back(src);
+						if (twoPathsFoundV.size()>1)
 						{
-							if (u_path.second.size() == 2)
-							{
-								cout << "YES" << endl;
-								return;
-							}
+							cout << "YES" << endl;
+							return;
 						}
+						uPaths.find(src)->second.push_back(path2);
 					}
+				}
 
+			}
+			if (v != w && src != u)
+			{
+				
+				unordered_set<int> path;
+				auto p1 = FindPath2(src, v, graph, &path, n,u, v, w);
+				if (p1 >= 0)
+				{
+					vector<unordered_set<int>> ins;
+					ins.push_back(path);
+					vPaths.insert({ src, ins });
 
+					unordered_set<int> path2;
+					auto p2 = FindOtherPath2(src, v, graph, &path2, &path, n );
+					if (p2 >= 0) {
+						twoPathsFoundV.push_back(src);
+						if (towPathsFoundU.size() > 1)
+						{
+							cout << "YES" << endl;
+							return;
+						}
+						vPaths.find(src)->second.push_back(path2);
+
+					}
 				}
 			}
-		}
 
+		}
 	}
+
 
 	if ((u == w && vPaths.size() > 0) || (v == w && uPaths.size()>0) || (u == w && v == w))
 	{
@@ -218,19 +229,14 @@ int main()
 	int n, m, q;
 	cin >> n >> m >> q;
 
-	vector<vector<int>*> graph(n + 1);
+	vector<vector<int>> graph(n + 1);
 
 	while (m--)
 	{
 		int s, e;
 		cin >> s >> e;
-		if (graph[s] == nullptr)
-			graph[s] = new vector<int>();
-		if (graph[e] == nullptr)
-			graph[e] = new vector<int>();
-
-		graph[s]->push_back(e);
-		graph[e]->push_back(s);
+		graph[s].push_back(e);
+		graph[e].push_back(s);
 	}
 
 	while (q--) {
@@ -240,5 +246,6 @@ int main()
 
 	return 0;
 }
+
 
 
