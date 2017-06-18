@@ -54,6 +54,10 @@ unordered_set<int>* FindPath2(int s, int d, vector<vector<int>>& graph, int n, u
 	vector<bool> visited(n + 1);
 	visited[s] = true;
 	visited[w] = true;
+	if (d == v)
+		visited[u] = true;
+	else
+		visited[v] = true;
 	auto found = FindPathDfs(s, d, graph, path, visited);
 
 	if (found >= 0) {
@@ -63,9 +67,9 @@ unordered_set<int>* FindPath2(int s, int d, vector<vector<int>>& graph, int n, u
 	return nullptr;
 }
 
-int FindOtherPathDfs(int s, int d, vector<vector<int>>& graph, unordered_set<int>* path, vector<bool>& visited, unordered_set<int>* existingPath)
+int FindOtherPathDfs(int s, int d,  int startPoint ,vector<vector<int>>& graph, unordered_set<int>* path, vector<bool>& visited, unordered_set<int>* existingPath)
 {
-	if (existingPath->find(s) != existingPath->end())
+	if (existingPath->find(s) != existingPath->end() && s != startPoint && s!=d)
 		return -1;
 
 	if (s == d) {
@@ -78,8 +82,8 @@ int FindOtherPathDfs(int s, int d, vector<vector<int>>& graph, unordered_set<int
 			if (!visited[i])
 			{
 				visited[i] = true;
-				if (existingPath->find(i) == existingPath->end()) {
-					auto found = FindOtherPathDfs(i, d, graph, path, visited, existingPath);
+				if (existingPath->find(i) == existingPath->end() || i== startPoint || i == d) {
+					auto found = FindOtherPathDfs(i, d, startPoint ,graph, path, visited, existingPath);
 					if (found >= 0)
 					{
 						path->insert(s);
@@ -131,8 +135,12 @@ unordered_set<int>* FindOtherPath2(int s, int d, vector<vector<int>>& graph,  un
 	vector<bool> visited(n+1);
 	visited[s] = true;
 	visited[w] = true;
+	if (d == v)
+		visited[u] = true;
+	else
+		visited[v] = true;
 	auto path = new unordered_set<int>();
-	auto found = FindOtherPathDfs(s, d, graph, path, visited, existingPath);
+	auto found = FindOtherPathDfs(s, d, s,graph, path, visited, existingPath);
 
 	if (found >= 0) {
 		//pathsCache.insert({ s + "_" + d, path });
