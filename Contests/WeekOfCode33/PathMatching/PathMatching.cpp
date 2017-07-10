@@ -1,7 +1,3 @@
-// PathMatching.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -13,20 +9,20 @@
 
 using namespace std;
 
-int countOccurances(const vector<vector<int>>& graph, const string& s, const string& p, int u, int v, vector<bool>& visited , int& indexToMatch , int& count , int& resetCount, vector<int>&  lps)
+int countOccurances(const vector<vector<int>>& graph, const string& s, const string& p, int u, int v, vector<bool>& visited, int& indexToMatch, int& count, vector<int>&  lps)
 {
-	if(u == v)
+	if (u == v)
 	{
 		return v;
 	}
 	int res = -1;
-	for(auto c : graph[u])
+	for (auto c : graph[u])
 	{
-		if(!visited[c])
+		if (!visited[c])
 		{
 			visited[c] = true;
-			 res = countOccurances(graph, s, p, c, v, visited, indexToMatch, count,resetCount,lps);
-			if(res >=0)
+			res = countOccurances(graph, s, p, c, v, visited, indexToMatch, count, lps);
+			if (res >= 0)
 			{
 				if (p[indexToMatch] == s[c])
 				{
@@ -38,48 +34,54 @@ int countOccurances(const vector<vector<int>>& graph, const string& s, const str
 				}
 				else
 				{
-					indexToMatch = indexToMatch == 0 ? 0 : lps[indexToMatch -1];
-					if (p[indexToMatch] == s[c])
-					{
-						indexToMatch++;
-						if (indexToMatch == p.length())
+					indexToMatch = indexToMatch == 0 ? 0 : lps[indexToMatch - 1];
+					while (indexToMatch >= 0) {
+						if (p[indexToMatch] == s[c])
 						{
-							count++; indexToMatch =  lps[indexToMatch - 1];
+							indexToMatch++;
+							if (indexToMatch == p.length())
+							{
+								count++; indexToMatch = lps[indexToMatch - 1];
+							}
+							break;
 						}
+						if (indexToMatch == 0)
+							break;
+						indexToMatch = lps[indexToMatch - 1];
 					}
 				}
 				break;
 			}
 		}
 	}
-	
+
 	return res;
 }
 
-void Solve(const vector<vector<int>>& graph	, const string& s, const string& p, int resetCount, int n , vector<int>&  lps)
+void Solve(const vector<vector<int>>& graph, const string& s, const string& p, int n, vector<int>&  lps)
 {
 	int v, u;
 	cin >> v >> u;
 	vector<bool> visisted(n + 1);
-	
+
 	int count = 0;
 	visisted[u] = true;
 	int indexToMatch = 0;
-	auto res = countOccurances(graph, s, p, u, v, visisted, indexToMatch, count, resetCount, lps);
+	auto res = countOccurances(graph, s, p, u, v, visisted, indexToMatch, count, lps);
 	if (res != -1 && p[indexToMatch] == s[u])
 	{
-	indexToMatch++;
-	if (indexToMatch == p.length())
-	{
-	count++; indexToMatch = resetCount;
-	}
-	
+		indexToMatch++;
+		if (indexToMatch == p.length())
+		{
+			count++; indexToMatch = lps[indexToMatch - 1];
+		}
+
 	}
 	cout << count << endl;
 
 }
 // Fills lps[] for given patttern pat[0..M-1]
-void computeLPSArray(string pat, vector<int>&  lps , int l)
+void computeLPSArray(string pat, vector<int>&  lps, int l)
 {
 	// length of the previous longest prefix suffix
 	int len = 0;
@@ -117,8 +119,8 @@ void computeLPSArray(string pat, vector<int>&  lps , int l)
 	}
 }
 
-void computeTemporaryArray(string pattern, vector<int>& lps , int l) {
-	
+void computeTemporaryArray(string pattern, vector<int>& lps, int l) {
+
 	int index = 0;
 	lps[0] = 0;
 	for (int i = 1; i < l;) {
@@ -151,7 +153,7 @@ int main()
 	std::cin.rdbuf(ins.rdbuf()); //redirect std::cin to in.txt!
 #endif
 
-	int n,  q;
+	int n, q;
 	cin >> n >> q;
 
 	string s, p;
@@ -162,7 +164,7 @@ int main()
 	s = ' ' + s;
 	vector<vector<int>> graph(n + 1);
 
-	while(t--)
+	while (t--)
 	{
 		int st, e;
 		cin >> st >> e;
@@ -176,20 +178,10 @@ int main()
 	// Preprocess the pattern (calculate lps[] array)
 	computeLPSArray(p, lps, p.length());
 
-	int i = 0, j = p.length() - 1;
-	int reverseCount = 0;
-	/*while(i<j)
+	while (q--)
 	{
-		if(p[i] == p[j])
-			reverseCount++;
-		i++; j--;
-	}*/
-
-	while(q--)
-	{
-		Solve(graph, s, p, reverseCount,n, lps);
+		Solve(graph, s, p, n, lps);
 	}
 
-    return 0;
+	return 0;
 }
-
