@@ -85,9 +85,9 @@ namespace BankStock
         static void Solve()
         {
 
-            int n = Convert.ToInt32(reader.ReadLine());
-            string[] arr_temp = reader.ReadLine().Split(' ');
-            int[] arr = Array.ConvertAll(arr_temp, Int32.Parse);
+            int n = Convert.ToInt32(reader.ReadLine().Trim());
+            string[] arr_temp = reader.ReadLine().Trim().Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+            int[] arr = arr_temp.Select(x => Convert.ToInt32(x)).ToArray();
             long k = Convert.ToInt64(reader.ReadLine());
             long result = buyMaximumProducts(n, k, arr);
             Console.WriteLine(result);

@@ -13,31 +13,6 @@ typedef long long ll;
 
 using namespace std;
 
-void CreateSegmentTree(int i, int j,  long long * input, std::vector<long long>& sg, int root)
-{
-	if (i == j) {
-		sg[root] = input[i];
-		return;
-	}
-
-	int mid = (i + j) / 2;
-	CreateSegmentTree(i, mid, input, sg, 2 * root + 1);
-	CreateSegmentTree(mid + 1, j, input, sg, 2 * root + 2);
-	sg[root] = max( sg[2 * root + 1] , sg[2 * root + 2]);
-}
-
-long long FindMax(int qi, int qj, int i, int j, vector<long long>& sg, int root)
-{
-	if (qi > j || qj < i)
-		return -1;
-	if (qi <= i && qj >= j)
-		return sg[root];
-
-	int mid = (i + j) / 2;
-	return max(FindMax(qi, qj, i, mid, sg, 2 * root + 1),  FindMax(qi, qj, mid + 1, j, sg, 2 * root + 2));
-
-}
-
 int main()
 {
 #if _DEBUG
@@ -47,8 +22,6 @@ int main()
 #endif
 	int n, q;
 	cin >> n >> q;
-	//auto sgSize = static_cast<int>(pow(2, (ceil(log2(n)) + 1)) - 1);
-	//vector<long long> sg(sgSize);
 	
 	auto ts = new ll[n];
 	int i = 0;
@@ -78,8 +51,6 @@ int main()
 		maxArr[i] = curMax;
 		i--;
 	}
-
-	//CreateSegmentTree(0, n - 1, price, sg, 0);
 
 	map<ll, ll> pMap;
 	map<ll, ll> tsMap;
