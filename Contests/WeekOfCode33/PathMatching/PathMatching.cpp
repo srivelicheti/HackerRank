@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -10,11 +9,8 @@
 
 using namespace std;
 
-int countOccurances(const vector<vector<int>>& graph, const string& s, const string& p, int u, int v, vector<bool>& visited, 
-	int& indexToMatch, int& count, vector<int>&  lps , int level , int& maxLevel )
+int countOccurances(const vector<vector<int>>& graph, const string& s, const string& p, int u, int v, vector<bool>& visited, int& indexToMatch, int& count, vector<int>&  lps)
 {
-	if (level > maxLevel)
-		return -1;
 	if (u == v)
 	{
 		return v;
@@ -25,7 +21,7 @@ int countOccurances(const vector<vector<int>>& graph, const string& s, const str
 		if (!visited[c])
 		{
 			visited[c] = true;
-			res = countOccurances(graph, s, p, c, v, visited, indexToMatch, count, lps, level+1,maxLevel);
+			res = countOccurances(graph, s, p, c, v, visited, indexToMatch, count, lps);
 			if (res >= 0)
 			{
 				if (p[indexToMatch] == s[c])
@@ -62,111 +58,6 @@ int countOccurances(const vector<vector<int>>& graph, const string& s, const str
 	return res;
 }
 
-void countOccurancesBfs(const vector<vector<int>>& graph, const string& s, const string& p, int u, int v, vector<bool>& visited, int& indexToMatch, int& count, vector<int>&  lps)
-{
-	
-	queue<int> q;
-	queue<int> q2;
-	q.push(u);
-	q2.push(v);
-	unordered_map<int, int> map;
-	unordered_map<int, int> map2;
-	map.insert({u,-1});
-	//map.insert({ v,-1 });
-	int middleIndex = -1;
-	while(!q.empty() && !q2.empty() && middleIndex == -1)
-	{
-		auto cur = q.front();
-		q.pop();
-		if(map2.find(cur) != map2.end())
-		{
-			middleIndex = cur;
-			break;
-		}
-		for (auto child : graph[cur])
-		{
-			if(!visited[child])
-			{
-				visited[child] = true;
-				map.insert({ child, cur });
-				
-
-				q.push(child);
-			}
-			if (map2.find(child) != map2.end())
-			{
-				map.insert({ child, cur });
-				middleIndex = child;
-				break;
-			}
-		}
-		if(middleIndex != -1)
-			break;
-		auto cur2 = q2.front();
-		q2.pop();
-		if(map.find(cur2) != map.end())
-		{
-			middleIndex = cur2;
-			break;
-		}
-		for (auto child : graph[cur2])
-		{
-			if (!visited[child])
-			{
-				visited[child] = true;
-				map2.insert({ cur2,child });
-				q2.push(child);
-			}
-			if (map.find(child) != map.end())
-			{
-				map2.insert({ cur2,child });
-				middleIndex = child;
-				break;
-			}
-		}
-	}
-
-	auto t = v;
-	auto map3 = map2;
-	bool switched = false;
-	while(t!=-1)
-	{
-		if (p[indexToMatch] == s[t])
-		{
-			indexToMatch++;
-			if (indexToMatch == p.length())
-			{
-				count++; indexToMatch = lps[indexToMatch - 1];
-			}
-		}
-		else
-		{
-			indexToMatch = indexToMatch == 0 ? 0 : lps[indexToMatch - 1];
-			while (indexToMatch >= 0) {
-				if (p[indexToMatch] == s[t])
-				{
-					indexToMatch++;
-					if (indexToMatch == p.length())
-					{
-						count++; indexToMatch = lps[indexToMatch - 1];
-					}
-					break;
-				}
-				if (indexToMatch == 0)
-					break;
-				indexToMatch = lps[indexToMatch - 1];
-			}
-		}
-		if(!switched && t == middleIndex)
-		{
-			map3 = map;
-		}
-		t = map3.find(t)->second;
-	}
-
-	return;
-}
-
 void Solve(const vector<vector<int>>& graph, const string& s, const string& p, int n, vector<int>&  lps)
 {
 	int v, u;
@@ -176,13 +67,8 @@ void Solve(const vector<vector<int>>& graph, const string& s, const string& p, i
 	int count = 0;
 	visisted[u] = true;
 	int indexToMatch = 0;
-	bool found = false;
-	int maxLevel = 50;
-	while (!found) {
-		maxLevel = maxLevel * 5;
-		found = countOccurances(graph, s, p, u, v, visisted, indexToMatch, count, lps, 0, maxLevel);
-	}
-	if ( p[indexToMatch] == s[u])
+	auto res = countOccurances(graph, s, p, u, v, visisted, indexToMatch, count, lps);
+	if (res != -1 && p[indexToMatch] == s[u])
 	{
 		indexToMatch++;
 		if (indexToMatch == p.length())
@@ -294,7 +180,7 @@ int main()
 
 	while (q--)
 	{
-			Solve(graph, s, p, n, lps);
+		Solve(graph, s, p, n, lps);
 	}
 
 	return 0;

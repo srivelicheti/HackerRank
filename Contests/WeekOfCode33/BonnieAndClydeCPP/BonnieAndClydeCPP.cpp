@@ -1,10 +1,4 @@
-// BonnieAndClydeCPP.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
-// BonnieAndClydeCPP.cpp : Defines the entry point for the console application.
-//
-
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -22,34 +16,34 @@ int FindPathDfs(int s, int d, vector<vector<int>>& graph, unordered_set<int>* pa
 		path->insert(s);
 		return s;
 	}
-	 //Test
-	
-		for (auto i : graph[s])
+
+
+	for (auto i : graph[s])
+	{
+		if (!visited[i])
 		{
-			if (!visited[i])
+			visited[i] = true;
+			auto found = FindPathDfs(i, d, graph, path, visited);
+			if (found >= 0)
 			{
-				visited[i] = true;
-				auto found = FindPathDfs(i, d, graph, path, visited);
-				if (found >= 0)
-				{
-					path->insert(s);
-					return s;
-				}
+				path->insert(s);
+				return s;
 			}
 		}
+	}
 	return -1;
 }
 
-unordered_set<int>* FindPath2(int s, int d, vector<vector<int>>& graph, int n, unordered_map<string, vector<unordered_set<int>>>& pathsCache, int u ,int v ,int w)
+unordered_set<int>* FindPath2(int s, int d, vector<vector<int>>& graph, int n, unordered_map<string, vector<unordered_set<int>*>*>& pathsCache, int u, int v, int w, bool& fromCache)
 {
 	unordered_set<int>* path = nullptr;
-	/*auto cachedPaths = pathsCache.find(s + "_" + d);
-	if(cachedPaths != pathsCache.end())
+	//auto cachedPaths = pathsCache.find(s + "_" + d);
+	/*if(cachedPaths != pathsCache.end())
 	{
-		path = cachedPaths->second;
-	}
-	if (path != nullptr)
-		return path;*/
+		fromCache = true;
+		return (*cachedPaths->second)[0];
+	}*/
+	
 	path = new unordered_set<int>();
 	vector<bool> visited(n + 1);
 	visited[s] = true;
@@ -61,15 +55,15 @@ unordered_set<int>* FindPath2(int s, int d, vector<vector<int>>& graph, int n, u
 	auto found = FindPathDfs(s, d, graph, path, visited);
 
 	if (found >= 0) {
-	//	pathsCache.insert({ s + "_" + d, path });
+		//	pathsCache.insert({ s + "_" + d, path });
 		return path;
 	}
 	return nullptr;
 }
 
-int FindOtherPathDfs(int s, int d,  int startPoint ,vector<vector<int>>& graph, unordered_set<int>* path, vector<bool>& visited, unordered_set<int>* existingPath)
+int FindOtherPathDfs(int s, int d, int startPoint, vector<vector<int>>& graph, unordered_set<int>* path, vector<bool>& visited, unordered_set<int>* existingPath)
 {
-	if (existingPath->find(s) != existingPath->end() && s != startPoint && s!=d)
+	if (existingPath->find(s) != existingPath->end() && s != startPoint && s != d)
 		return -1;
 
 	if (s == d) {
@@ -77,21 +71,21 @@ int FindOtherPathDfs(int s, int d,  int startPoint ,vector<vector<int>>& graph, 
 		return s;
 	}
 
-		for (auto i : graph[s])
+	for (auto i : graph[s])
+	{
+		if (!visited[i])
 		{
-			if (!visited[i])
-			{
-				visited[i] = true;
-				if (existingPath->find(i) == existingPath->end() || i== startPoint || i == d) {
-					auto found = FindOtherPathDfs(i, d, startPoint ,graph, path, visited, existingPath);
-					if (found >= 0)
-					{
-						path->insert(s);
-						return s;
-					}
+			visited[i] = true;
+			if (existingPath->find(i) == existingPath->end() || i == startPoint || i == d) {
+				auto found = FindOtherPathDfs(i, d, startPoint, graph, path, visited, existingPath);
+				if (found >= 0)
+				{
+					path->insert(s);
+					return s;
 				}
 			}
 		}
+	}
 	return -1;
 }
 
@@ -121,18 +115,23 @@ bool AreDisoint(unordered_set<int>* s1, unordered_set<int>* s2)
 	return true;
 }
 
-unordered_set<int>* FindOtherPath2(int s, int d, vector<vector<int>>& graph,  unordered_set<int>* existingPath, int n, unordered_map<string, vector<unordered_set<int>>>& pathsCache , int u, int v, int w)
+unordered_set<int>* FindOtherPath2(int s, int d, vector<vector<int>>& graph, unordered_set<int>* existingPath, int n, unordered_map<string, vector<unordered_set<int>*>*>& pathsCache, int u, int v, int w, bool& fromCache)
 {
-	/*auto cachedPaths = pathsCache.equal_range(s + "_" + d);
-	for (auto pc = cachedPaths.first; pc != cachedPaths.second;++pc)
+	//auto cachedPaths = pathsCache.find(s + "_" + d);
+	/*if (cachedPaths != pathsCache.end())
 	{
-		if( AreDisoint(existingPath,pc->second))
+		
+		for (auto pc : *cachedPaths->second)
 		{
-			return  pc->second;
+			if(AreDisoint(existingPath,pc))
+			{
+				fromCache = true;
+				return pc;
+			}
 		}
-	}*/
-
-	vector<bool> visited(n+1);
+	}
+*/
+	vector<bool> visited(n + 1);
 	visited[s] = true;
 	visited[w] = true;
 	if (d == v)
@@ -140,10 +139,10 @@ unordered_set<int>* FindOtherPath2(int s, int d, vector<vector<int>>& graph,  un
 	else
 		visited[v] = true;
 	auto path = new unordered_set<int>();
-	auto found = FindOtherPathDfs(s, d, s,graph, path, visited, existingPath);
+	auto found = FindOtherPathDfs(s, d, s, graph, path, visited, existingPath);
 
 	if (found >= 0) {
-		//pathsCache.insert({ s + "_" + d, path });
+		/*pathsCache.insert({ s + "_" + d, path });*/
 		return path;
 	}
 	return nullptr;
@@ -152,7 +151,7 @@ unordered_set<int>* FindOtherPath2(int s, int d, vector<vector<int>>& graph,  un
 
 void SolveOne(vector<vector<int>>& graph, int n)
 {
-	unordered_map<string, vector<unordered_set<int>>> pathsCache;// = new unordered_map<string, vector<unordered_set<int>>>();
+	unordered_map<string, vector<unordered_set<int>*>*> pathsCache;// = new unordered_map<string, vector<unordered_set<int>>>();
 	int u, v, w;
 	cin >> u >> v >> w;
 
@@ -184,18 +183,36 @@ void SolveOne(vector<vector<int>>& graph, int n)
 				unordered_set<int>* path = nullptr;
 				//auto find = pathsCache.find(src + " " + u);
 				//if (find == pathsCache.end())
-					path = FindPath2(src, u, graph, n, pathsCache, u , v ,w);
-				//else
-					//path = &find->second[0];
+				bool fromCache = false;
+				path = FindPath2(src, u, graph, n, pathsCache, u, v, w,fromCache);
+				
 				if (path)
 				{
+					/*if (!fromCache)
+					{
+						auto cachedPaths = pathsCache.find(src + "_" + u);
+						if (cachedPaths == pathsCache.end())
+							pathsCache.insert({ src + "_" + u, new vector<unordered_set<int>*>{ path } });
+						else
+							cachedPaths->second->push_back(path);
+					}*/
 					vector<unordered_set<int>*> ins;
 					ins.push_back(path);
 					uPaths.insert({ src,ins });
+
+					fromCache = false;
+					auto path2 = FindOtherPath2(src, u, graph, path, n, pathsCache, u, v, w,fromCache);
 					
-					
-					auto path2 = FindOtherPath2(src, u, graph,  path, n, pathsCache, u ,v ,w);
+
 					if (path2) {
+						/*if (!fromCache)
+						{
+							auto cachedPaths = pathsCache.find(src + "_" + u);
+							if (cachedPaths == pathsCache.end())
+								pathsCache.insert({ src + "_" + u, new vector<unordered_set<int>*>{ path2 } });
+							else
+								cachedPaths->second->push_back(path2);
+						}*/
 						towPathsFoundU.push_back(src);
 						if (twoPathsFoundV.size()>1)
 						{
@@ -209,15 +226,34 @@ void SolveOne(vector<vector<int>>& graph, int n)
 			}
 			if (v != w && src != u)
 			{
-				auto path = FindPath2(src, v, graph,  n,pathsCache, u , v ,w);
+				bool fromCache = false;
+				auto path = FindPath2(src, v, graph, n, pathsCache, u, v, w,fromCache);
+				
 				if (path)
 				{
+					/*if (!fromCache)
+					{
+						auto cachedPaths = pathsCache.find(src + "_" + u);
+						if (cachedPaths == pathsCache.end())
+							pathsCache.insert({ src + "_" + u, new vector<unordered_set<int>*>{ path } });
+						else
+							cachedPaths->second->push_back(path);
+					}*/
 					vector<unordered_set<int>*> ins;
 					ins.push_back(path);
 					vPaths.insert({ src, ins });
+					fromCache = false;
+					auto path2 = FindOtherPath2(src, v, graph, path, n, pathsCache, u, v, w,fromCache);
 					
-					auto path2 = FindOtherPath2(src, v, graph,  path, n , pathsCache, u ,v ,w);
 					if (path2) {
+						/*if (!fromCache)
+						{
+							auto cachedPaths = pathsCache.find(src + "_" + u);
+							if (cachedPaths == pathsCache.end())
+								pathsCache.insert({ src + "_" + u, new vector<unordered_set<int>*>{ path2 } });
+							else
+								cachedPaths->second->push_back(path2);
+						}*/
 						twoPathsFoundV.push_back(src);
 						if (towPathsFoundU.size() > 1)
 						{
@@ -283,7 +319,7 @@ int main()
 
 	vector<vector<int>> graph(n + 1);
 
-	
+
 
 	while (m--)
 	{
@@ -293,14 +329,14 @@ int main()
 		graph[e].push_back(s);
 	}
 
-	
+
 
 	while (q--) {
 
 		SolveOne(graph, n);
 	}
 	/*for (auto it = pathsCache->begin(); it != pathsCache->end(); ++it)
-		delete it->second;
+	delete it->second;
 	delete pathsCache;*/
 
 	return 0;
